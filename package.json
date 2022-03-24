@@ -1,0 +1,24 @@
+{
+    "name": "re-set",
+    "description": "re-set",
+    "version": "1.0.0",
+    "scripts": {
+        "scss": "npm run .scss:clean && npm run .scss:build && npm run .scss:gzip",
+        "scss:watch": "sass --watch  scss/index.scss:www/css/index.css",
+        ".scss:clean": "rm -rf www/css/*.css.gz www/css/*.css.map",
+        ".scss:gzip": "gzip -kr www/css/*.css",
+        ".scss:build": "sass --no-source-map --style=compressed scss/index.scss:www/css/index.css"
+    },
+    "repository": "https://github.com/xxx/re-set",
+    "author": "jozefrosenberger@gmail.com",
+    "license": "ISC",
+    "homepage": "https://github.com/xxx/re-set",
+    "devDependencies": {
+        "sass": "^1.45.0",
+        "gulp": "^4.0.2",
+        "gulp-clean": "^0.4.0",
+        "gulp-gzip": "^1.4.2",
+        "gulp-real-favicon": "^0.3.2",
+        "autoprefixer": "^10.4.0"
+    }
+}
