@@ -11,12 +11,13 @@
     "license": "ISC",
     "homepage": "https://github.com/rosenberger/re-set",
     "devDependencies": {
-        "sass": "^1.45.0",
+        "autoprefixer": "^10.4.0",
         "gulp": "^4.0.2",
         "gulp-clean": "^0.4.0",
         "gulp-gzip": "^1.4.2",
         "gulp-real-favicon": "^0.3.2",
-        "autoprefixer": "^10.4.0"
+        "sass": "^1.45.0",
+        "uikit": "^3.13.1"
     },
     "scripts": {
         "scss": "npm run .scss:clean && npm run .scss:build && npm run .scss:gzip",

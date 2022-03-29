@@ -4,6 +4,8 @@
 @import "../node_modules/normalize.css/normalize";
 @import "variables";
 
-html {
-    background: $red;
+@import "theme-header";
+
+.tm-header {
+    background: var(--tm-c-g-p);
 }

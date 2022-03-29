@@ -1,1 +1,11 @@
-$red: #a00;
+//tm
+$tm-global-color: #161615;
+$tm-g-primary-color: #fdcd56;
+$tm-g-secondary-color: #37aaa9;
+
+// tm-theme, c-color(entita), g-global
+:root {
+    --tm-c-g: $tm-global-color;
+    --tm-c-g-p: $tm-g-primary-color;
+    --tm-c-g-s: $tm-g-secondary-color;
+}
