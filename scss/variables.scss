@@ -30,4 +30,6 @@ $base-selection-color: #fff;
     --tm-c-g: #{$tm-global-color};
     --tm-c-g-p: #{$tm-g-primary-color};
     --tm-c-g-s: #{$tm-g-secondary-color};
+    --text: #{$tm-global-color};
+    --text-link: #{$tm-g-secondary-color};
 }
