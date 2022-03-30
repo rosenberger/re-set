@@ -2,10 +2,12 @@
 $tm-global-color: #161615;
 $tm-g-primary-color: #fdcd56;
 $tm-g-secondary-color: #37aaa9;
+$tm-f-primary: "Epilogue", Arial, sans-serif;
+$tm-f-secondary: "Merriweather", Arial, serif;
 
 // tm-theme, c-color(entita), g-global
 :root {
-    --tm-c-g: $tm-global-color;
-    --tm-c-g-p: $tm-g-primary-color;
-    --tm-c-g-s: $tm-g-secondary-color;
+    --tm-c-g: #{$tm-global-color};
+    --tm-c-g-p: #{$tm-g-primary-color};
+    --tm-c-g-s: #{$tm-g-secondary-color};
 }

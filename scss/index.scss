@@ -2,10 +2,11 @@
 @use "sass:math";
 
 @import "../node_modules/normalize.css/normalize";
+@import "../node_modules/uikit/src/scss/variables";
+@import "../node_modules/uikit/src/scss/components/import";
 @import "variables";
+@import "uikit/import";
 
-@import "theme-header";
-
-.tm-header {
-    background: var(--tm-c-g-p);
-}
+@import "theme/base";
+@import "theme/header";
+@import "theme/footer";
