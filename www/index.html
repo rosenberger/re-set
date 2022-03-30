@@ -15,47 +15,51 @@
     <body>
         <header class="t-header">
             <div class="uk-container">
+              <div class="t-header-grid">
                 <div class="t-header-logo">
                     <a href="index.html" title="Re-set">
                         <svg width="234" height="103" viewBox="0 0 234 103">
-                            <use xlink:href="/svg/sprite.svg?1648626464#logo-re-set"></use>
+                            <use xlink:href="/svg/sprite.svg#logo-re-set"></use>
                         </svg>
                     </a>
                 </div>
-                <nav class="t-header-nav-main uk-navbar">
-                    <ul class="uk-navbar-nav">
-                        <li><a href="#">Úvodní strana</a></li>
-                        <li><a href="#">Aktuality</a></li>
-                        <li><a href="#">O nás</a></li>
-                        <li><a href="#">Materiály</a></li>
-                        <li><a href="#">Pro novináře</a></li>
-                        <li><a href="#">Podpořte nás</a></li>
-                    </ul>
-                </nav>
-                <div class="t-header-nav-right">
-                    <nav>
-                        <ul class="uk-navbar-nav">
-                            <li><a href="#">CZ</a></li>
-                            <li><a href="#">EN</a></li>
-                        </ul>
-                    </nav>
-                    <nav>
-                        <ul>
-                            <li>
-                                <button title="Search">
-                                    <svg width="22" height="22" viewBox="0 0 22 22">
-                                        <use xlink:href="svg/sprite.svg#i-search"></use>
-                                    </svg>
-                                </button>
-                            </li>
-                            <li>
-                                <button title="Re-set">
-                                    Menu
-                                </button>
-                            </li>
-                        </ul>
-                    </nav>
+                <div class="t-header-nav">
+                  <nav class="t-header-nav-main uk-navbar uk-visible@m">
+                      <ul class="uk-navbar-nav">
+                          <li><a href="./index.html">Úvodní strana</a></li>
+                          <li><a href="./aktuality.html">Aktuality</a></li>
+                          <li><a href="./o-nas.html">O nás</a></li>
+                          <li><a href="./materialy.html">Materiály</a></li>
+                          <li><a href="#">Pro novináře</a></li>
+                          <li><a href="#">Podpořte nás</a></li>
+                      </ul>
+                  </nav>
+                  <div class="t-header-nav-right">
+                      <nav>
+                          <ul class="uk-navbar-nav">
+                              <li><a href="#">CZ</a></li>
+                              <li><a href="#">EN</a></li>
+                          </ul>
+                      </nav>
+                      <nav>
+                          <ul>
+                              <li>
+                                  <button title="Search">
+                                      <svg width="22" height="22" viewBox="0 0 22 22">
+                                          <use xlink:href="svg/sprite.svg#i-search"></use>
+                                      </svg>
+                                  </button>
+                              </li>
+                              <li class="uk-hidden@m">
+                                  <button title="Re-set">
+                                      Menu
+                                  </button>
+                              </li>
+                          </ul>
+                      </nav>
+                  </div>
                 </div>
+              </div>
             </div>
         </header>
         <main class="main-content" role="main">
@@ -77,10 +81,10 @@
                 <section class="t-section t-section-articles">
                     <div class="uk-container">
                         <div class="t-section-h">
-                            <nav>
-                                <ul class="uk-navbar-nav">
-                                    <li><span>Témata</span></li>
-                                    <li><a href="#">Bydlení</a></li>
+                            <nav class="uk-flex uk-flex-center">
+                                <ul class="t-tab">
+                                    <li class="t-tab-header"><span>Témata:</span></li>
+                                    <li class="t-active"><a href="#">Bydlení</a></li>
                                     <li><a href="#">Nerůst</a></li>
                                     <li><a href="#">Klima</a></li>
                                     <li><a href="#">Budování hnutí</a></li>
@@ -113,7 +117,7 @@
                             </div>
                         </div>
                         <div class="t-section-f uk-text-center">
-                            <a href="#" class="uk-button uk-button-default">Zobrazit další aktuality</a>
+                            <a href="#" class="t-button">Zobrazit další aktuality</a>
                         </div>
                     </div>
                 </section>

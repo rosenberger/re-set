@@ -1,11 +1,11 @@
 //tm
-$tm-global-color: #161615;
+$tm-global-color: #000;
 $tm-g-primary-color: #ffd66f;
 $tm-g-secondary-color: #33b7b7;
-$tm-f-primary: "Epilogue", Arial, sans-serif;
-$tm-f-secondary: "Merriweather", Arial, serif;
+$tm-font-primary: "Epilogue", Arial, sans-serif;
+$tm-font-secondary: "Merriweather", Arial, serif;
 
-$global-font-family: $tm-f-secondary;
+$global-font-family: $tm-font-secondary;
 
 $base-h1-font-size-m: 75px;
 $base-h2-font-size-m: 50px;
@@ -18,12 +18,12 @@ $base-h4-font-size: 16px;
 $base-h1-line-height: 1.1;
 $base-h2-line-height: 1.1;
 $base-h3-line-height: 1.1;
-$base-heading-font-family: $tm-f-primary;
+$base-heading-font-family: $tm-font-primary;
 $base-heading-font-weight: 600;
 $base-heading-color: #000;
-
 $base-selection-background: rgba(#33b7b7, 0.8);
 $base-selection-color: #fff;
+$navbar-nav-item-height: 40px;
 
 // tm-theme, c-color(entita), g-global
 :root {
@@ -32,4 +32,5 @@ $base-selection-color: #fff;
     --tm-c-g-s: #{$tm-g-secondary-color};
     --text: #{$tm-global-color};
     --text-link: #{$tm-g-secondary-color};
+    --button: #{$tm-global-color};
 }
