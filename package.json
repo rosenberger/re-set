@@ -20,7 +20,7 @@
         "gulp-unique-files": "^0.2.0",
         "pwa-asset-generator": "^6.0.6",
         "sass": "^1.45.0",
-        "uikit": "^3.13.1",
+        "uikit": "^3.13.1"
     },
     "scripts": {
         "svg": "npx gulp buildsvg",

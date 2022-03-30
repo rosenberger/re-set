@@ -3,10 +3,12 @@
 
 @import "../node_modules/normalize.css/normalize";
 @import "../node_modules/uikit/src/scss/variables";
-@import "../node_modules/uikit/src/scss/components/import";
 @import "variables";
+@import "../node_modules/uikit/src/scss/components/import";
 @import "uikit/import";
 
 @import "theme/base";
+@import "theme/container";
+@import "theme/section";
 @import "theme/header";
 @import "theme/footer";

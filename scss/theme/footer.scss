@@ -1,4 +1,6 @@
 .t-footer {
+    padding-top: 50px;
+    padding-bottom: 60px;
     background: var(--tm-c-g-p);
 
     &-grid {
@@ -6,6 +8,10 @@
         grid-gap: 30px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto;
+    }
+
+    &-head {
+        font-size: 30px;
     }
 
     @media (min-width: $breakpoint-medium) {
