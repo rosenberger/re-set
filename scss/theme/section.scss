@@ -1,6 +1,6 @@
 .t-section {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: $tm-section-padding-top;
+    padding-bottom: $tm-section-padding-bottom;
     position: relative;
 
     &:not(:last-of-type) {
@@ -30,10 +30,35 @@
     &-header {
         background: var(--tm-c-g-p);
         margin-top: -10px;
-        padding-top: 10px;
+        padding-top: 30px;
+        padding-bottom: 15px;
 
         &::after {
             display: none;
+        }
+    }
+    &-content {
+        &-img {
+            img {
+                width: 100%;
+                max-width: 315px;
+                height: auto;
+            }
+        }
+    }
+    @media (min-width: $breakpoint-small) {
+        &-content {
+            &-img > * {
+                text-align: center;
+                margin-top: - ($base-h1-font-size + $tm-section-padding-top);
+            }
+        }
+    }
+    @media (min-width: $breakpoint-medium) {
+        &-content {
+            &-img > * {
+                margin-top: - ($base-h1-font-size-m + $tm-section-padding-top);
+            }
         }
     }
 }

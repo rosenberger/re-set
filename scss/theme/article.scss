@@ -1,0 +1,39 @@
+.article-short {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+
+    & > :last-child {
+        margin-bottom: 0 !important;
+    }
+
+    &-h {
+        flex-direction: row;
+
+         .article-short-img {
+            margin: 0;
+        }
+    }
+
+    &-img {
+        margin: 0 0 20px;
+    }
+
+    &-head {
+        margin: 0 0 15px;
+    }
+
+    &-desc {
+        margin: 0 0 20px;
+        font-size: 16px;
+
+        & > :last-child {
+            margin-bottom: 0 !important;
+        }
+    }
+    &-info {
+        font-style: italic;
+        font-weight: 600;
+    }
+}

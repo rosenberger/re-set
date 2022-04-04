@@ -3,6 +3,12 @@ html {
     color: #000;
 }
 
+body {
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+}
+
 a {
     color: var(--text-link);
     text-decoration: underline;
@@ -11,4 +17,16 @@ a {
     &:focus {
         text-decoration: none;
     }
+}
+
+h3, .t-h3 {
+    font-weight: 900;
+}
+
+code {
+    color: crimson;
+    font-size: 105%;
+    background-color: rgba(222,222,222,0.3);
+    padding-left: 4px;
+    padding-right: 4px;
 }

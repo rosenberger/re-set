@@ -2,6 +2,16 @@
     padding-top: 50px;
     padding-bottom: 60px;
     background: var(--tm-c-g-p);
+    font-family: $tm-font-primary;
+    font-weight: 600;
+
+    a {
+      text-decoration: none;
+
+      &:hover, &:focus {
+        text-decoration: underline;
+      }
+    }
 
     &-grid {
         display: grid;
@@ -11,7 +21,12 @@
     }
 
     &-head {
-        font-size: 30px;
+        font-size: $base-h3-font-size;
+        font-weight: 900;
+    }
+
+    .t-navbar {
+      font-size: 18px;
     }
 
     @media (min-width: $breakpoint-medium) {
