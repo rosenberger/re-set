@@ -4,8 +4,8 @@ html {
 }
 
 body {
-    -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased; // sass-lint:disable-line no-vendor-prefixes
+    -webkit-tap-highlight-color: transparent; // sass-lint:disable-line no-vendor-prefixes
     scroll-behavior: smooth;
 }
 
@@ -19,14 +19,15 @@ a {
     }
 }
 
-h3, .t-h3 {
+h3,
+.t-h3 {
     font-weight: 900;
 }
 
 code {
-    color: crimson;
+    color: #dc143c;
     font-size: 105%;
-    background-color: rgba(222,222,222,0.3);
+    background-color: rgba(222, 222, 222, 0.3);
     padding-left: 4px;
     padding-right: 4px;
 }

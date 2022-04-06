@@ -5,13 +5,13 @@
     height: 100%;
 
     & > :last-child {
-        margin-bottom: 0 !important;
+        margin-bottom: 0 !important; // sass-lint:disable-line no-important
     }
 
     &-h {
         flex-direction: row;
 
-         .article-short-img {
+        .article-short-img {
             margin: 0;
         }
     }
@@ -29,9 +29,10 @@
         font-size: 16px;
 
         & > :last-child {
-            margin-bottom: 0 !important;
+            margin-bottom: 0 !important; // sass-lint:disable-line no-important
         }
     }
+
     &-info {
         font-style: italic;
         font-weight: 600;

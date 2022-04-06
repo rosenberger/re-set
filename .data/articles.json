@@ -1,0 +1,64 @@
+{
+    "heading": "Aktuality"
+    "perex": "Lorem ipsum dolor sit amet nis earci comni cum quatibus nonsedis aut as del ipit autem hictibus soluptur, si si quatur. Quid ut la qui dollaudam, earibus vellaborro vel mo quo odic.",
+    "articles": [
+        {
+            "heading": "Kampaň Zastavme špinavé prachy má další úspěch",
+            "cover": "",
+            "text": "Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou klimatickou politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.",
+            "info": "10/8/2021",
+            "label": "Kampaň",
+            "link": "",
+            "type": "article"
+        },
+        {
+            "heading": "Zelená transformace ekonomiky musí být v jádru sociálně spravedlivá",
+            "cover": "",
+            "text": "Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou klimatickou politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám.",
+            "info": "7/8/2021",
+            "label": "Tisková zpráva",
+            "link": "",
+            "type": "article"
+        },
+        {
+            "heading": "Po celém světě stále banky investují do fosilních paliv",
+            "cover": "",
+            "text": "Lorem ipsum dolor sit amet nis earci comni cum quatibus nonsedis aut as del ipit autem hictibus soluptur, si si quatur. Quid ut la qui dollaudam, earibus vellaborro vel mo quo odic.",
+            "info": "10/8/2021",
+            "label": "",
+            "link": "",
+            "type": "article"
+        },
+        {
+            "heading": "Na obranu bydlení",
+            "cover": "",
+            "text": "Lorem ipsum dolor sit amet nis earci comni cum quatibus nonsedis aut as del ipit autem hictibus soluptur, si si quatur. Quid ut la qui dollaudam, earibus vellaborro vel mo quo odic.",
+            "info": "6/8/2021",
+            "label": "",
+            "link": "",
+            "type": "article"
+        },
+        {
+            "heading": "Evropské státy mohou kvůli energetické chartě přijít až o 344 miliard eur",
+            "cover": "",
+            "text": "Lorem ipsum dolor sit amet nis earci comni cum quatibus nonsedis aut as del ipit autem hictibus soluptur, si si quatur. Quid ut la qui dollaudam, earibus vellaborro vel mo quo odic.",
+            "info": "10/8/2021",
+            "label": "",
+            "link": "",
+            "type": "article"
+        },
+        {
+            "heading": "Kampaň Zastavme špinavé prachy má další úspěch",
+            "cover": "",
+            "text": "Lorem ipsum dolor sit amet nis earci comni cum quatibus nonsedis aut as del ipit autem hictibus soluptur, si si quatur. Quid ut la qui dollaudam, earibus vellaborro vel mo quo odic.",
+            "info": "10/8/2021",
+            "label": "",
+            "link": "",
+            "type": "article"
+        }
+    ],
+    "button": {
+        "text": "Zobrazit další aktuality",
+        "action": "#"
+    }
+}

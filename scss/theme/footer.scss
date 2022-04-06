@@ -6,11 +6,12 @@
     font-weight: 600;
 
     a {
-      text-decoration: none;
+        text-decoration: none;
 
-      &:hover, &:focus {
-        text-decoration: underline;
-      }
+        &:focus,
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     &-grid {
@@ -26,9 +27,8 @@
     }
 
     .t-navbar {
-      font-size: 18px;
+        font-size: 18px;
     }
-
     @media (min-width: $breakpoint-medium) {
         &-grid {
             grid-template-columns: repeat(3, 1fr);

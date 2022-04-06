@@ -21,19 +21,20 @@
             font-size: 17px;
             text-decoration: none;
 
-            &:hover, &:focus {
-              color: var(--tm-c-g-s)
+            &:focus,
+            &:hover {
+                color: var(--tm-c-g-s);
             }
         }
     }
 
     & > .t-active a {
-      background: var(--tm-c-g-s);
-      color: #fff;
+        background: var(--tm-c-g-s);
+        color: #fff;
     }
 
     &-header {
-      font-size: 16px;
-      padding: 9px 20px;
+        font-size: 16px;
+        padding: 9px 20px;
     }
 }
