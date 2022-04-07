@@ -21,7 +21,12 @@ a {
 
 h3,
 .t-h3 {
+    font-size: 25px;
     font-weight: 900;
+
+    @media (min-width: $breakpoint-large) {
+        font-size: 30px
+    }
 }
 
 code {

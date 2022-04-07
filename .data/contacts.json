@@ -1,58 +1,77 @@
 {
-    "heading": "O nás"
-    "perex": "Podporujeme sociálně-ekologickou transformaci, směřující k novému hospodářskému modelu. Takovému, který bude založený na spolupráci místo konkurence, péči místo sobectví a demokratických formách vlastnictví a kontroly.",
-    "section_chapter_01": {
-        "heading": "Kdo jsme",
-        "text": "<p>Dnešní hospodářský model, založený na maximalizaci zisku a růstu za každou cenu, nám neslouží dobře. Místo aby zajišťoval všem důstojný život v možnostech naší planety, koncentruje bohatství v rukou hrstky privilegovaných a generuje čím dál propastnější sociální rozdíly. Ničí ekologické základy lidského života na Zemi a pleněním přírodních zdrojů dále prohlubuje nespravedlnost. Podrývá také demokracii a upevňuje mocenské nerovnosti, které znemožňují velké většině lidí účinně se podílet na určování podmínek svého života.</p> <p>Podporujeme proto sociálně-ekologickou transformaci, směřující k novému hospodářskému modelu. Takovému, který bude založený na spolupráci místo konkurence, péči místo vykořisťování a demokratických formách vlastnictví a kontroly. Víme, že takový proces nemůže nikdo naplánovat od stolu. Protože jsme přesvědčení, že systémové změny nemohou nastat bez široké participace lidí a společenského tlaku zdola, podporujeme sociální hnutí a iniciativy, usilující o rozmanité změny k lepšímu ve všech oblastech života.</p> <p>Společně hledáme cesty k dobrému životu pro všechny.</p>"
+    "heading":"O nás",
+    "perex":"Podporujeme sociálně-ekologickou transformaci, směřující k novému hospodářskému modelu. Takovému, který bude založený na spolupráci místo konkurence, péči místo sobectví a demokratických formách vlastnictví a kontroly.",
+    "cover":"./img/Images.png",
+    "section_chapter_01":{
+        "heading":"Kdo jsme",
+        "text":"<p>Dnešní hospodářský model, založený na maximalizaci zisku a růstu za každou cenu, nám neslouží dobře. Místo aby zajišťoval všem důstojný život v možnostech naší planety, koncentruje bohatství v rukou hrstky privilegovaných a generuje čím dál propastnější sociální rozdíly. Ničí ekologické základy lidského života na Zemi a pleněním přírodních zdrojů dále prohlubuje nespravedlnost. Podrývá také demokracii a upevňuje mocenské nerovnosti, které znemožňují velké většině lidí účinně se podílet na určování podmínek svého života.</p> <p>Podporujeme proto sociálně-ekologickou transformaci, směřující k novému hospodářskému modelu. Takovému, který bude založený na spolupráci místo konkurence, péči místo vykořisťování a demokratických formách vlastnictví a kontroly. Víme, že takový proces nemůže nikdo naplánovat od stolu. Protože jsme přesvědčení, že systémové změny nemohou nastat bez široké participace lidí a společenského tlaku zdola, podporujeme sociální hnutí a iniciativy, usilující o rozmanité změny k lepšímu ve všech oblastech života.</p> <p>Společně hledáme cesty k dobrému životu pro všechny.</p>"
     },
-    "section_chapter_02": {
-        "heading": "Co děláme",
-        "text": "<p>Promýšlíme a popularizujeme koncepty pro sociální, ekologickou a demokratickou ekonomiku. Zkoumáme příčiny sociálních a ekologických problémů a hledáme řešení.</p> <p>Síťujeme aktéry, kteří chtějí participovat na sociálně-ekologické transformaci ekonomiky. Podporujeme sdílení informací a zkušeností mezi sociálními hnutími, akademickým prostředím a širokou veřejností.</p> <p>Podporujeme iniciativy zdola a spolupracujeme se sociálními hnutími, která usilují o dobrý život pro všechny v různých oblastech. Pomáháme lidem se organizovat a společně prosazovat své zájmy.</p>"
+    "section_chapter_02":{
+        "heading":"Co děláme",
+        "text":"<p>Promýšlíme a popularizujeme koncepty pro sociální, ekologickou a demokratickou ekonomiku. Zkoumáme příčiny sociálních a ekologických problémů a hledáme řešení.</p> <p>Síťujeme aktéry, kteří chtějí participovat na sociálně-ekologické transformaci ekonomiky. Podporujeme sdílení informací a zkušeností mezi sociálními hnutími, akademickým prostředím a širokou veřejností.</p> <p>Podporujeme iniciativy zdola a spolupracujeme se sociálními hnutími, která usilují o dobrý život pro všechny v různých oblastech. Pomáháme lidem se organizovat a společně prosazovat své zájmy.</p>"
     },
-    "section_contacts": {
-        "heading": "Členové a členky",
-        "contacts": [
+    "section_contacts":{
+        "heading":"Členové<br> a členky",
+        "contacts":[
+            {
+                "name": "Barbora Adamková",
+                "email": "barbora.adamkova@re-set.cz",
+                "text": "Pracuje na vzdělávacích projektech zaměřených na témata klimatické spravedlnosti, nerůstu a občanské participace. Je lektorkou neformálního vzdělávání a vystudovanou environmentalistkou.",
+                "cover": "img/Images14.png"
+            },
+            {
+                "name": "Barbora Bakošová",
+                "email": "barbora.bakosova@re-set.cz",
+                "text": "Zabývá se tématem klimatické a sociální spravedlnosti. Jako environmentalistka se věnuje psaní o ekologických a klimatických tématech.",
+                "cover": "img/Images15.png"
+            },
+            {
+                "name": "Mikuláš Černík",
+                "email": "mikulas.cernik@re-set.cz",
+                "text": "Soustředí se na témata klimatické spravedlnosti a společensko-ekologické transformace. Na Masarykově univerzitě dokončuje doktorské studium, ve kterém se věnuje odporu vůči těžbě uhlí.",
+                "cover": "img/Images16.png"
+            },
             {
                 "name": "Dominika Knoblochová",
                 "email": "dominika.knoblochova@re-set.cz",
                 "text": "Věnuje se projektům spojeným s právem na město. Jinak pracuje jako lektorka neformálního vzdělávání a sociální pracovnice se zaměřením na komunitní práci s dětmi vyrůstajícími v sociálně izolovaném prostředí.",
-                "cover": ""
+                "cover": "img/Images17.png"
             },
             {
                 "name": "Radek Kubala",
                 "email": "radek.kubala@re-set.cz",
                 "text": "Věnuje se tématu klimatické spravedlnosti, nerůstové ekonomiky a spravedlivému přechodu na ekonomiku bez uhlíku. Jako novinář a ekologický aktivista dlouhodobě píše pro Deník Referendum a pracoval pro Greenpeace Slovensko.",
-                "cover": ""
+                "cover": "img/Images18.png"
             },
             {
                 "name": "Jakub Mácha",
                 "email": "jakub.macha@re-set.cz",
                 "text": "Pracuje jako projektový koordinátor a facilitátor neformálního vzdělávání v projektech spojujících témata klimatické spravedlnosti a spravedlivého přechodu. Jako sociální antropolog se věnuje tématům bydlení v interdisciplinárním výzkumném týmu na FaVU VUT.",
-                "cover": ""
+                "cover": "img/Images19.png"
             },
             {
                 "name": "Yuliya Moskvina",
                 "email": "yuliya.moksvina@re-set.cz",
                 "text": "Věnuje se bydlení a právu na město. Jako socioložka se zabývá městským hnutími a demokracií ve městě.",
-                "cover": ""
+                "cover": "img/Images20.png"
             },
             {
                 "name": "Jakub Nakládal",
                 "email": "jakub.nakladal@re-set.cz",
                 "text": "Zabývá se problematikou bydlení, práva na město a územního rozvoje. Zkoumá a popularizuje příčiny a řešení krize bydlení. Jako architekt mimo jiné organizuje kritické procházky po pražských čtvrtích.",
-                "cover": ""
+                "cover": "img/Images21.png"
             },
             {
                 "name": "Jakub Ort",
                 "email": "jakub.ort@re-set.cz",
                 "text": "Pracuje na projektech spojených s právem na bydlení a na město. Zajímá ho také otázka politického vzdělávání a organizování.",
-                "cover": ""
+                "cover": "img/Images22.png"
             },
             {
                 "name": "Josef Patočka",
                 "email": "josef.patocka@re-set.cz",
                 "text": "Zaměřuje se na otázky klimatické krize, sociálně- ekologické transformace a demokratizace energetiky. Jinak působí jako reportér pro klima a energetiku v Deníku Referendum a ve volném čase pomáhá s organizováním v klimatickém hnutí.",
-                "cover": ""
+                "cover": "img/Images23.png"
             },
             {
                 "name": "Barbora Jelínková",
@@ -76,109 +95,109 @@
                 "name": "Marika Volfová",
                 "email": "marikavolfova@gmail.com",
                 "text": "Je dlouhodobě aktivní jako komunitní organizátorka a facilitátorka v hnutí za klimatickou spravedlnost. V Re-setu se zaměřuje na otázku spravedlivé transformace uhelných regionů (zejména Ústeckého kraje, kde působí) a budování klimatického hnutí. Působí také v hnutí Limity jsme my.",
-                "cover": ""
+                "cover": "img/Images24.png"
             }
         ]
     },
-    "section_links": {
-        "chapters": [
+    "section_links":{
+        "chapters":[
             {
-                "heading": "Hnutí, ze kterých vycházíme",
-                "contacts": [
+                "heading":"Hnutí, ze kterých vycházíme",
+                "contacts":[
                     {
-                        "text": "Právo na město",
-                        "link": ""
+                        "text":"Právo na město",
+                        "link":""
                     },
                     {
-                        "text": "Stop AirBnB",
-                        "link": ""
+                        "text":"Stop AirBnB",
+                        "link":""
                     },
                     {
-                        "text": "Greenpeace",
-                        "link": ""
+                        "text":"Greenpeace",
+                        "link":""
                     },
                     {
-                        "text": "Limity jsme my",
-                        "link": ""
+                        "text":"Limity jsme my",
+                        "link":""
                     },
                     {
-                        "text": "Food Not Bombs",
-                        "link": ""
+                        "text":"Food Not Bombs",
+                        "link":""
                     }
                 ]
             },
             {
-                "heading": "Platformy do kterých patříme",
-                "contacts": [
+                "heading":"Platformy do kterých patříme",
+                "contacts":[
                     {
-                        "text": "Paměť města",
-                        "link": ""
+                        "text":"Paměť města",
+                        "link":""
                     },
                     {
-                        "text": "Limity jsme my",
-                        "link": ""
+                        "text":"Limity jsme my",
+                        "link":""
                     },
                     {
-                        "text": "Stop AirBnB",
-                        "link": ""
+                        "text":"Stop AirBnB",
+                        "link":""
                     },
                     {
-                        "text": "Nová dohoda",
-                        "link": ""
+                        "text":"Nová dohoda",
+                        "link":""
                     }
                 ]
             },
             {
-                "heading": "Zahraniční partnerské organizace",
-                "contacts": [
+                "heading":"Zahraniční partnerské organizace",
+                "contacts":[
                     {
-                        "text": "Lorem ipsum",
-                        "link": ""
+                        "text":"Lorem ipsum",
+                        "link":""
                     },
                     {
-                        "text": "Dolor sit amet",
-                        "link": ""
+                        "text":"Dolor sit amet",
+                        "link":""
                     },
                     {
-                        "text": "Sipsumis lorem",
-                        "link": ""
+                        "text":"Sipsumis lorem",
+                        "link":""
                     }
                 ]
             }
         ]
     },
-    "section_logos": {
-        "heading": "Projekt podpořili",
-        "contacts": [
+    "section_logos":{
+        "heading":"Projekt podpořili",
+        "contacts":[
             {
-                "text": "RLF",
-                "cover": "",
-                "link": "#"
+                "text":"RLF",
+                "cover":"",
+                "link":"#"
             },
             {
-                "text": "HBS",
-                "cover": "",
-                "link": "#"
+                "text":"HBS",
+                "cover":"",
+                "link":"#"
             },
             {
-                "text": "FES",
-                "cover": "",
-                "link": "#"
+                "text":"FES",
+                "cover":"",
+                "link":"#"
             },
             {
-                "text": "GF",
-                "cover": "",
-                "link": "#"
+                "text":"GF",
+                "cover":"",
+                "link":"#"
             },
             {
-                "text": "TSP",
-                "cover": "",
-                "link": "#"
+                "text":"TSP",
+                "cover":"",
+                "link":"#"
             },
             {
-                "text": "ECF",
-                "cover": "",
-                "link": "#"
+                "text":"ECF",
+                "cover":"",
+                "link":"#"
             }
         ]
     }
