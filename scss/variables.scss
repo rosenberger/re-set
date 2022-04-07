@@ -1,9 +1,21 @@
+@font-face {
+    font-family: "Merriweather-fallback";
+    size-adjust: 122.81%;
+    src: local("Times New Roman");
+}
+
+@font-face {
+    font-family: "Epilogue-fallback";
+    size-adjust: 110.87%;
+    src: local("Arial");
+}
+
 //tm
 $tm-global-color: #000;
 $tm-g-primary-color: #fdcd56;
 $tm-g-secondary-color: #37aaa9;
-$tm-font-primary: "Epilogue", "Arial", sans-serif;
-$tm-font-secondary: "Merriweather", "Georgia", serif;
+$tm-font-primary: "Epilogue", "Epilogue-fallback", sans-serif;
+$tm-font-secondary: "Merriweather", "Merriweather-fallback", serif;
 
 $tm-section-padding-top: 30px;
 $tm-section-padding-bottom: 50px;

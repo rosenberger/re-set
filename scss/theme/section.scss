@@ -51,14 +51,14 @@
         &-content {
             &-img > * {
                 text-align: center;
-                margin-top: - ($base-h1-font-size + $tm-section-padding-top);
+                margin-top: - ($base-h1-font-size + $tm-section-padding-top * 2 + 15px); // $tm-section-padding-top + vyska zahlavi s h1
             }
         }
     }
     @media (min-width: $breakpoint-medium) {
         &-content {
             &-img > * {
-                margin-top: - ($base-h1-font-size-m + $tm-section-padding-top);
+                margin-top: - ($base-h1-font-size-m + $tm-section-padding-top * 2 + 15px);
             }
         }
     }

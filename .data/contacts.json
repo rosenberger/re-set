@@ -103,64 +103,64 @@
         "chapters":[
             {
                 "heading":"Hnutí, ze kterých vycházíme",
-                "contacts":[
+                "links":[
                     {
-                        "text":"Právo na město",
-                        "link":""
+                        "name":"Právo na město",
+                        "url":"#"
                     },
                     {
-                        "text":"Stop AirBnB",
-                        "link":""
+                        "name":"Stop AirBnB",
+                        "url":"#"
                     },
                     {
-                        "text":"Greenpeace",
-                        "link":""
+                        "name":"Greenpeace",
+                        "url":"#"
                     },
                     {
-                        "text":"Limity jsme my",
-                        "link":""
+                        "name":"Limity jsme my",
+                        "url":"#"
                     },
                     {
-                        "text":"Food Not Bombs",
-                        "link":""
+                        "name":"Food Not Bombs",
+                        "url":"#"
                     }
                 ]
             },
             {
                 "heading":"Platformy do kterých patříme",
-                "contacts":[
+                "links":[
                     {
-                        "text":"Paměť města",
-                        "link":""
+                        "name":"Paměť města",
+                        "url":"#"
                     },
                     {
-                        "text":"Limity jsme my",
-                        "link":""
+                        "name":"Limity jsme my",
+                        "url":"#"
                     },
                     {
-                        "text":"Stop AirBnB",
-                        "link":""
+                        "name":"Stop AirBnB",
+                        "url":"#"
                     },
                     {
-                        "text":"Nová dohoda",
-                        "link":""
+                        "name":"Nová dohoda",
+                        "url":"#"
                     }
                 ]
             },
             {
                 "heading":"Zahraniční partnerské organizace",
-                "contacts":[
+                "links":[
                     {
-                        "text":"Lorem ipsum",
-                        "link":""
+                        "name":"Lorem ipsum",
+                        "url":"#"
                     },
                     {
-                        "text":"Dolor sit amet",
-                        "link":""
+                        "name":"Dolor sit amet",
+                        "url":"#"
                     },
                     {
-                        "text":"Sipsumis lorem",
-                        "link":""
+                        "name":"Sipsumis lorem",
+                        "url":"#"
                     }
                 ]
             }
@@ -168,35 +168,35 @@
     },
     "section_logos":{
         "heading":"Projekt podpořili",
-        "contacts":[
+        "logos":[
             {
-                "text":"RLF",
-                "cover":"",
+                "name":"RLF",
+                "img_url":"./img/Images25.png",
                 "link":"#"
             },
             {
-                "text":"HBS",
-                "cover":"",
+                "name":"HBS",
+                "img_url":"./img/Images26.png",
                 "link":"#"
             },
             {
-                "text":"FES",
-                "cover":"",
+                "name":"FES",
+                "img_url":"./img/Images27.png",
                 "link":"#"
             },
             {
-                "text":"GF",
-                "cover":"",
+                "name":"GF",
+                "img_url":"./img/Images28.png",
                 "link":"#"
             },
             {
-                "text":"TSP",
-                "cover":"",
+                "name":"TSP",
+                "img_url":"./img/Images29.png",
                 "link":"#"
             },
             {
-                "text":"ECF",
-                "cover":"",
+                "name":"ECF",
+                "img_url":"./img/Images30.png",
                 "link":"#"
             }
         ]
