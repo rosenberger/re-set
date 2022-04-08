@@ -170,34 +170,34 @@
         "heading":"Projekt podpořili",
         "logos":[
             {
-                "name":"RLF",
+                "name":"Rosa Luxemburg Foundation",
                 "img_url":"./img/Images25.png",
-                "link":"#"
+                "link":"https://www.rosalux.de/"
             },
             {
-                "name":"HBS",
+                "name":"Heinrich Böll Stiftung",
                 "img_url":"./img/Images26.png",
-                "link":"#"
+                "link":"https://cz.boell.org/en"
             },
             {
-                "name":"FES",
+                "name":"Friedrich-Ebert-Stiftung",
                 "img_url":"./img/Images27.png",
-                "link":"#"
+                "link":"https://www.fes.de/"
             },
             {
-                "name":"GF",
+                "name":"Guerrilla Foundation",
                 "img_url":"./img/Images28.png",
-                "link":"#"
+                "link":"https://guerrillafoundation.org/"
             },
             {
-                "name":"TSP",
+                "name":"The Sunrise Project",
                 "img_url":"./img/Images29.png",
-                "link":"#"
+                "link":"https://sunriseproject.org/"
             },
             {
-                "name":"ECF",
+                "name":"European Climate Foundation",
                 "img_url":"./img/Images30.png",
-                "link":"#"
+                "link":"https://europeanclimate.org/"
             }
         ]
     }
