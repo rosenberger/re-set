@@ -1,10 +1,10 @@
 html {
-    font-family: $tm-font-secondary;
+    font-family: $tm-global-font;
     color: #000;
 }
 
 body {
-    -webkit-font-smoothing: antialiased; // sass-lint:disable-line no-vendor-prefixes
+    //-webkit-font-smoothing: antialiased; // sass-lint:disable-line no-vendor-prefixes
     -webkit-tap-highlight-color: transparent; // sass-lint:disable-line no-vendor-prefixes
     scroll-behavior: smooth;
 }
@@ -19,14 +19,42 @@ a {
     }
 }
 
+h1, .t-h1, h2, .t-h2, h3, .t-h3, h4, .t-h4, h5, .t-h5, h6, .t-h6 {
+    font-family: $tm-global-font-serif;
+    font-weight: 600;
+    color: #000;
+    text-transform: none;
+    margin: 0 0 20px;
+}
+
+h1,
+.t-h1 {
+    font-size: var(--heading-h1);
+    line-height: 1.14;
+}
+
+h2,
+.t-h2 {
+    font-size: var(--heading-h2);
+    line-height: 1.2;
+}
+
 h3,
 .t-h3 {
-    font-size: 25px;
+    font-size: var(--heading-h3);
     font-weight: 900;
+    line-height: 1.2;
+}
 
-    @media (min-width: $breakpoint-large) {
-        font-size: 30px
-    }
+h4, .t-h4 {
+    font-size: $tm-global-font-size;
+    line-height: $tm-global-line-height;
+}
+
+.t-h3-second {
+    font-family: $tm-global-font;
+    font-weight: 400;
+    font-size: calc(var(--heading-h3) + 2px);
 }
 
 code {

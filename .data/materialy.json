@@ -1,0 +1,63 @@
+{
+    "heading":"Materiály",
+    "perex":"Lorem ipsum dolor sit amet nis earci comni cum quatibus nonsedis aut as del ipit autem hictibus soluptur, si si quatur. Quid ut la qui dollaudam, earibus vellaborro vel mo quo odic.",
+    "cover": "",
+    "articles":[
+        {
+            "heading":"Kampaň Zastavme špinavé prachy",
+            "cover":"https://picsum.photos/400/230",
+            "text":"Lorem ipsum dolor sit amet",
+            "info":"21/3/2021 – PDF – 15Mb",
+            "label":"",
+            "url":"#",
+            "action": "#",
+            "action_text": "Stáhnout",
+            "type":"document"
+        },
+        {
+            "heading":"Nová dohoda: Program sociálně-ekologické transformace pro Českou republiku",
+            "cover":"https://picsum.photos/400/230?2",
+            "text":"Lorem ipsum dolor sit amet",
+            "info":"21/3/2021 – PDF – 15Mb",
+            "label":"",
+            "url":"#",
+            "action": "#",
+            "action_text": "Stáhnout",
+            "type":"document"
+        },
+        {
+            "heading":"Škola spravedlivé transformace",
+            "cover":"https://picsum.photos/400/230?3",
+            "text":"Lorem ipsum dolor sit amet",
+            "info":"21/3/2021 – PDF – 15Mb",
+            "label":"",
+            "url":"#",
+            "action": "#",
+            "action_text": "Stáhnout",
+            "type":"document"
+        },
+        {
+            "heading":"Lorem ipsum dolor sit amet",
+            "cover":"https://picsum.photos/400/230?4",
+            "text":"Lorem ipsum dolor sit amet",
+            "info":"",
+            "label":"",
+            "url":"#",
+            "action": "#",
+            "action_text": "Stáhnout",
+            "type":"document"
+        },
+        {
+            "heading":"Quid ut la qui dollaudam, earibus vellaborro",
+            "cover":"https://picsum.photos/400/230?5",
+            "text":"Lorem ipsum dolor sit amet",
+            "info":"",
+            "label":"",
+            "url":"#",
+            "action": "#",
+            "action_text": "Stáhnout",
+            "type":"document"
+        }
+    ],
+    "button": false
+}

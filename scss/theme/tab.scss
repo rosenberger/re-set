@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: -20px;
+    margin-bottom: 0;
     padding: 0;
     list-style: none;
     position: relative;
@@ -10,7 +11,7 @@
         flex: none;
         padding-left: 5px;
         position: relative;
-        font-family: $tm-font-primary;
+        font-family: $tm-global-font-serif;
 
         a {
             display: flex;
@@ -19,6 +20,7 @@
             padding: 9px 20px;
             color: #000;
             font-size: 17px;
+            font-weight: 600;
             text-decoration: none;
 
             &:focus,

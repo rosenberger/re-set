@@ -6,28 +6,81 @@ function blockArticleHeader($head, $perex, $img) {
                 <div class="uk-grid">
                     <div class="uk-width-1-3">
                     </div>
-                    <div class="uk-width-1-2@s">
+                    <div class="uk-width-2-3@s">
                         <h1>' . $head . '</h1>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="t-section t-section--content">
-            <div class="uk-container">
-                <div class="uk-grid">
-                    <div class="t-section-content-img uk-width-1-3@s">
-                        <div>
-                            <img src="' .$img. '" width="315" height="315" loading="eager" alt="' . $head . '">
+        ';
+        if ($perex) {
+            echo '<section class="t-section t-section--content">
+                <div class="uk-container">
+                    <div class="uk-grid">
+                        <div class="t-section-content-img uk-width-1-3@s">';
+                        if ($img != "") {
+                            echo '
+                                <div>
+                                    <img src="' .$img. '" width="315" height="315" loading="eager" alt="' . $head . '">
+                                </div>
+                            ';
+                        }
+                echo '</div>
+                        <div class="t-perex uk-width-2-3@s">
+                            ' .$perex. '
                         </div>
                     </div>
-                    <div class="t-perex uk-width-1-2@s">
-                        ' .$perex. '
+                </div>
+            </section>
+        ';
+        }
+}
+
+function blockArticleDetailHeader($head, $perex, $img, $label, $info) {
+    echo '
+        <section class="t-section t-section--header-detail">
+            <div>
+                <img src="' .$img. '" width="1600" height="500" loading="eager" alt="' . $head . '">
+            </div>
+            <div class="uk-container">
+                <div class="uk-grid uk-grid-collapse uk-margin-bottom">';
+                if ($label) {
+                    echo '<span class="article-label">' .$label. '</span>';
+                }
+                if ($info) {
+                    echo '<span class="article-label-info">' .$info. '</span>';
+                }
+                echo '</div>
+                <h1>' . $head . '</h1>
+                <div class="t-perex">' . $perex . '</div>
+            </div>
+        </section>
+    ';
+}
+
+
+function blockHomepageHeader($head, $img) {
+    echo '
+        <section class="t-section t-section--header t-section--header-homepage">
+            <div class="uk-container">
+                <div class="uk-grid">
+                    <div class="t-section-content-img uk-width-1-3@s">';
+                    if ($img != "") {
+                        echo '
+                            <div>
+                                <img src="' .$img. '" width="315" height="315" loading="eager" alt="' . $head . '">
+                            </div>
+                        ';
+                    }
+            echo '</div>
+                    <div class="uk-width-2-3@s">
+                        <h1>' . $head . '</h1>
                     </div>
                 </div>
             </div>
         </section>
     ';
-};
+}
 
 function blockSectionText($section) {
     echo '
@@ -36,7 +89,7 @@ function blockSectionText($section) {
     ';
     if ($section["heading"] !== "") {
         echo  '<div class="uk-grid">';
-        echo '<div class="uk-width-1-3@s"><h2>' .$section["heading"]. '</h2></div>';
+        echo '<div class="uk-width-1-3@s"><h2 class="t-h1">' .$section["heading"]. '</h2></div>';
     }
     echo '<div class="t-text uk-width-expand">' .$section["text"]. '</div>';
     echo ($section["heading"] !== "" ? '</div>' : '');
@@ -46,12 +99,92 @@ function blockSectionText($section) {
     ';
 };
 
+
+/*
+$section - obsah
+$button - btn na spodku sekcie
+$menu -  zobrazenie menu clankov
+$count - pocet vypisanych clankov
+*/
+function blockSectionArticles($section, $button, $menu, $count) {
+    echo '
+        <section class="t-section t-section--articles">
+            <div class="uk-container">';
+            if ($menu) {
+                echo '
+                    <div class="t-section-h">
+                        <nav class="uk-flex uk-flex-center">
+                            <ul class="t-tab">
+                                <li class="t-tab-header"><span>Témata:</span></li>
+                                <li class="t-active"><a href="#">Bydlení</a></li>
+                                <li><a href="#">Nerůst</a></li>
+                                <li><a href="#">Klima</a></li>
+                                <li><a href="#">Budování hnutí</a></li>
+                                <li><a href="#">Nová ekonomika</a></li>
+                                <li><a href="#">Vzdělávání</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                ';
+            }
+
+                echo '<div class="t-grid t-child-width-1-2@s t-child-width-1-3@m">';
+    foreach ($section as $key => $article_short) {
+        if ($count && $key == $count) {
+            break;
+        }
+        echo '
+            <div>
+                <div class="article-short '.($article_short["type"] == "document" ? 'article-short--document' : '').'">';
+                        if ($article_short["cover"]) {
+                            echo '<div class="article-short-img">';
+                            if ($article_short["label"]) {
+                                echo '<span class="article-short-label">' .$article_short["label"]. '</span>';
+                            }
+                            echo '<img src="' .$article_short["cover"]. '"  width="400" height="230px" alt="' .$article_short["heading"]. '">';
+                            echo '</div>';
+                        }
+                    echo '
+                    <div class="article-short-content">
+                        <h3 class="article-short-head">' .$article_short["heading"]. '</h3>
+                        <div class="article-short-desc">';
+                        if ($article_short["info"]) {
+                            echo '<span class="article-short-info">' .$article_short["info"]. '</span>';
+                        }
+                        echo $article_short["text"]. '</div>';
+                        if ($article_short["action"]) {
+                            echo '
+                            <div class="article-short-link">
+                                <a href="' .$article_short["action"]. '" class="t-button">' .$article_short["action_text"]. '</a>
+                            </div>
+                            ';
+                        }
+                    echo '</div>
+                </div>
+            </div>
+        ';
+    }
+    echo '</div>';
+    // end articles
+    if ($button) {
+        echo '
+        <div class="t-section-f uk-text-center">
+            <a href="' .$button["url"]. '" class="t-button">' .$button["text"]. '</a>
+        </div>
+        ';
+    }
+    echo '
+            </div>
+        </section>
+    ';
+}
+
 function blockSectionContacts($section) {
     echo '
         <section class="t-section t-section--contacts">
             <div class="uk-container">
     ';
-    echo '<h2>' .$section["heading"]. '</h2>';
+    echo '<h2 class="t-h1">' .$section["heading"]. '</h2>';
     echo '<div class="t-grid t-child-width-1-2@s t-child-width-1-3@m">';
     foreach ($section["contacts"] as $key => $contact) {
         echo '
@@ -146,3 +279,45 @@ function blockSectionLogos($section) {
         </section>
     ';
 };
+
+function blockSectionTwitter() {
+    echo '
+        <section class="t-section t-section-twitter">
+            <div class="uk-container">
+                <h3>Sledujte nás na Twitteru</h3>
+            </div>
+        </section>
+    ';
+}
+
+function blockSectionParticipation() {
+    echo '
+    <section class="t-section t-section-participation">
+        <div class="uk-container">
+            <div class="uk-grid">
+                <h2 class="t-h1 uk-width-1-3@s">Jak se zapojit?</h2>
+                <h3 class="t-h3-second uk-width-2-3@s">Existuje několik způsobů, jak naší platformu můžeš podpořit nebo se aktivně zapojit do budování lepšího sociálně-ekologického prostředí.</h3>
+            </div>
+            <div class="t-section-f">
+                <div class="t-grid t-child-width-1-2@s t-child-width-1-3@m">
+                    <div>
+                        <img alt="Podpoř nás" src="./img/Images4.png" width="230" height="230">
+                        <h3>Podpoř nás</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div>
+                        <img alt="Podpoř nás" src="./img/Images5.png" width="230" height="230">
+                        <h3>Informuj se</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div>
+                        <img alt="Podpoř nás" src="./img/Images6.png" width="230" height="230">
+                        <h3>Zapoj se</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    ';
+}

@@ -3,7 +3,7 @@
     ini_set("display_errors", 1);
     error_reporting (E_ALL);
     //data
-    $detail = json_decode(file_get_contents('../.data/contacts.json'), true);
+    $detail = json_decode(file_get_contents('../.data/o-nas.json'), true);
     //definicia blockov
     include 'tpl/global/@ui.php';
 ?>
@@ -29,5 +29,4 @@
 <!-- end main -->
         <?php include 'tpl/global/footer.php';?>
     </body>
-    <?php include 'tpl/global/stats.php';?>
 </html>

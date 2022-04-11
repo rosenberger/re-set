@@ -15,7 +15,7 @@
                   <li><a href="./aktuality.php">Aktuality</a></li>
                   <li><a href="./o-nas.php">O nás</a></li>
                   <li><a href="./materialy.php">Materiály</a></li>
-                  <li><a href="./pro-novinare.php">Pro novináře</a></li>
+                  <li><a href="./clanek.php">Článek</a></li>
                   <li><a href="#">Podpořte nás</a></li>
               </ul>
           </nav>

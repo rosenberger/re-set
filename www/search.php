@@ -1,3 +1,13 @@
+<?php
+    //zobrazovanie php chyb
+    ini_set("display_errors", 1);
+    error_reporting (E_ALL);
+    //data
+    $detail = json_decode(file_get_contents('../.data/search.json'), true);
+    //definicia blockov
+    include 'tpl/global/@ui.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <?php include 'tpl/global/head.php';?>
@@ -8,7 +18,7 @@
 <main class="main-content" role="main">
     <article class="main-page-content">
       <?php
-        blockHeader();
+        blockArticleHeader($detail["heading"], $detail["perex"], $detail["cover"]);
         blockArticles();
       ?>
     </article>
@@ -17,27 +27,9 @@
 
         <?php include 'tpl/global/footer.php';?>
     </body>
-    <?php include 'tpl/global/stats.php';?>
 </html>
 
 <?php
-function blockHeader() {
-    echo '
-        <section class="t-section t-section-header">
-            <div class="uk-container">
-                <div class="uk-grid">
-                    <div class="uk-width-1-3@s">
-                    </div>
-                    <div class="uk-width-1-2@s">
-                        <h1>
-                            Hledání
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </section>
-    ';
-}
 
 function blockArticles() {
     echo '
@@ -109,4 +101,3 @@ function blockArticles() {
       </section>
     ';
 }
-?>

@@ -36,6 +36,20 @@
         &::after {
             display: none;
         }
+
+        // &-homepage {
+        //     .t-section-content {
+        //         &-img > * {
+        //             margin-top: auto !important;
+        //             margin-bottom: 15px;
+        //         }
+        //     }
+        // }
+        & {
+            &-detail {
+                padding-top: 0;
+            }
+        }
     }
 
     &--content {
@@ -52,6 +66,17 @@
             &-img > * {
                 text-align: center;
                 margin-top: - ($base-h1-font-size + $tm-section-padding-top * 2 + 15px); // $tm-section-padding-top + vyska zahlavi s h1
+            }
+        }
+
+        &--header-homepage {
+            .t-section-content-img {
+                align-self: flex-end;
+
+                & > * {
+                    margin-top: auto !important;
+                    margin-bottom: -15px;
+                }
             }
         }
     }

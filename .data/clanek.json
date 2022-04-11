@@ -1,0 +1,92 @@
+{
+    "heading":"Po celém světě stále banky investují do fosilních paliv",
+    "cover":"https://picsum.photos/1600/500?10",
+    "label": "Kampaň",
+    "info": "10/8/2021",
+    "type": "article",
+    "perex": "<p>Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou klimatickou politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.</p>",
+    "section_chapter_01":{
+        "heading": "",
+        "text":"<p>Dnešní hospodářský model, založený na maximalizaci zisku a růstu za každou cenu, nám neslouží dobře. Místo aby zajišťoval všem důstojný život v možnostech naší planety, koncentruje bohatství v rukou hrstky privilegovaných a generuje čím dál propastnější sociální rozdíly. Ničí ekologické základy lidského života na Zemi a pleněním přírodních zdrojů dále prohlubuje nespravedlnost. Podrývá také demokracii a upevňuje mocenské nerovnosti, které znemožňují velké většině lidí účinně se podílet na určování podmínek svého života.</p> <p>Podporujeme proto sociálně-ekologickou transformaci, směřující k novému hospodářskému modelu. Takovému, který bude založený na spolupráci místo konkurence, péči místo vykořisťování a demokratických formách vlastnictví a kontroly. Víme, že takový proces nemůže nikdo naplánovat od stolu. Protože jsme přesvědčení, že systémové změny nemohou nastat bez široké participace lidí a společenského tlaku zdola, podporujeme sociální hnutí a iniciativy, usilující o rozmanité změny k lepšímu ve všech oblastech života.</p> <p>Společně hledáme cesty k dobrému životu pro všechny.</p>"
+    },
+    "section_articles":{
+        "articles":[
+            {
+                "heading":"Kampaň Zastavme špinavé prachy má další úspěch",
+                "cover":"https://picsum.photos/400/230",
+                "text":"Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou klimatickou politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.",
+                "info":"10/8/2021",
+                "label":"Tisková zpráva",
+                "url":"#",
+                "action": false,
+                "action_text": false,
+                "link":"",
+                "type":"article"
+            },
+            {
+                "heading":"Zelená transformace ekonomiky musí být v jádru sociálně spravedlivá",
+                "cover":"https://picsum.photos/400/230?1",
+                "text":"Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou klimatickou politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám.",
+                "info":"7/8/2021",
+                "label":"Studie",
+                "url":"#",
+                "action": false,
+                "action_text": false,
+                "link":"",
+                "type":"article"
+            },
+            {
+                "heading":"Po celém světě stále banky investují do fosilních paliv",
+                "cover":"https://picsum.photos/400/230?2",
+                "text":"Lorem ipsum dolor sit amet nis earci comni cum quatibus nonsedis aut as del ipit autem hictibus soluptur, si si quatur. Quid ut la qui dollaudam, earibus vellaborro vel mo quo odic.",
+                "info":"10/8/2021",
+                "label":"Studie",
+                "url":"#",
+                "action": false,
+                "action_text": false,
+                "link":"",
+                "type":"article"
+            },
+            {
+                "heading":"Na obranu bydlení",
+                "cover":"https://picsum.photos/400/230?3",
+                "text":"Lorem ipsum dolor sit amet nis earci comni cum quatibus nonsedis aut as del ipit autem hictibus soluptur, si si quatur. Quid ut la qui dollaudam, earibus vellaborro vel mo quo odic.",
+                "info":"6/8/2021",
+                "label":"",
+                "url":"#",
+                "action": false,
+                "action_text": false,
+                "link":"",
+                "type":"article"
+            },
+            {
+                "heading":"Evropské státy mohou kvůli energetické chartě přijít až o 344 miliard eur",
+                "cover":"https://picsum.photos/400/230?4",
+                "text":"Lorem ipsum dolor sit amet nis earci comni cum quatibus nonsedis aut as del ipit autem hictibus soluptur, si si quatur. Quid ut la qui dollaudam, earibus vellaborro vel mo quo odic.",
+                "info":"10/8/2021",
+                "label":"",
+                "url":"#",
+                "action": false,
+                "action_text": false,
+                "link":"",
+                "type":"article"
+            },
+            {
+                "heading":"Kampaň Zastavme špinavé prachy má další úspěch",
+                "cover":"https://picsum.photos/400/230?5",
+                "text":"Lorem ipsum dolor sit amet nis earci comni cum quatibus nonsedis aut as del ipit autem hictibus soluptur, si si quatur. Quid ut la qui dollaudam, earibus vellaborro vel mo quo odic.",
+                "info":"10/8/2021",
+                "label":"",
+                "url":"#",
+                "action": false,
+                "action_text": false,
+                "link":"",
+                "type":"article"
+            }
+        ],
+        "button":{
+            "text":"Zobrazit další aktuality",
+            "url":"#"
+        }
+    }
+}
