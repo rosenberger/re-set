@@ -1,16 +1,8 @@
-.t-h1 {
-    font-size: $base-h1-font-size;
-
-    @media (min-width: $breakpoint-medium) {
-        font-size: $base-h1-font-size-m;
-    }
-}
-
-.t-h3-second {
-    font-family: $tm-global-font;
-    font-weight: 400;
-    font-size: $base-h3-font-size-m + 2px;
-}
+// .t-h3-second {
+//     font-family: $tm-global-font;
+//     font-weight: 400;
+//     font-size: $base-h3-font-size-m + 2px;
+// }
 
 .t-perex {
     font-size: 20px;

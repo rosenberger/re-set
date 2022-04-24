@@ -19,7 +19,12 @@ a {
     }
 }
 
-h1, .t-h1, h2, .t-h2, h3, .t-h3, h4, .t-h4, h5, .t-h5, h6, .t-h6 {
+h1, .t-h1,
+h2, .t-h2,
+h3, .t-h3,
+h4, .t-h4,
+h5, .t-h5,
+h6, .t-h6 {
     font-family: $tm-global-font-serif;
     font-weight: 600;
     color: #000;
@@ -30,7 +35,7 @@ h1, .t-h1, h2, .t-h2, h3, .t-h3, h4, .t-h4, h5, .t-h5, h6, .t-h6 {
 h1,
 .t-h1 {
     font-size: var(--heading-h1);
-    line-height: 1.14;
+    line-height: 1.04;
 }
 
 h2,
@@ -46,7 +51,8 @@ h3,
     line-height: 1.2;
 }
 
-h4, .t-h4 {
+h4,
+.t-h4 {
     font-size: $tm-global-font-size;
     line-height: $tm-global-line-height;
 }

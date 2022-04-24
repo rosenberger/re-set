@@ -302,17 +302,17 @@ function blockSectionParticipation() {
                 <div class="t-grid t-child-width-1-2@s t-child-width-1-3@m">
                     <div>
                         <img alt="Podpoř nás" src="./img/Images4.png" width="230" height="230">
-                        <h3>Podpoř nás</h3>
+                        <h3 class="t-h2">Podpoř nás</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                     <div>
                         <img alt="Podpoř nás" src="./img/Images5.png" width="230" height="230">
-                        <h3>Informuj se</h3>
+                        <h3 class="t-h2">Informuj se</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                     <div>
                         <img alt="Podpoř nás" src="./img/Images6.png" width="230" height="230">
-                        <h3>Zapoj se</h3>
+                        <h3 class="t-h2">Zapoj se</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>

@@ -1,0 +1,76 @@
+/* The Overlay (background) */
+.t-overlay {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba($tm-g-secondary-color, 0.9);
+    overflow-x: hidden;
+    transition: height 0.5s;
+    color: var(--text-inverse);
+
+    &.t-active {
+        height: 100%;
+    }
+
+    a {
+        color: var(--text-inverse);
+        fill: var(--text-inverse);
+        text-decoration: none;
+    }
+
+    .t-close-btn {
+        position: absolute;
+        top: 25px;
+        right: 15px;
+        line-height: 48px;
+        width: 48px;
+        text-align: center;
+        border: none;
+        padding: 0;
+        background: none;
+        color: var(--text-inverse);
+        fill: var(--text-inverse);
+    }
+
+  .t-navbar {
+      font-size: 22px;
+
+      &-h {
+          margin-left: -13px;
+          margin-right: -13px;
+      }
+      li {
+          & > a.t-active,
+          &.t-active {
+              color: var(--text-inverse);
+              text-decoration: underline;
+          }
+
+          & + li {
+              content: "/";
+              font-weight: 600;
+          }
+      }
+
+      & > li > a,
+      & > li span {
+          color: var(--text-inverse);
+      }
+  }
+}
+
+.t-overlay-content {
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: grid;
+}
+
+.t-overlay-content-center {
+    justify-self: center;
+}

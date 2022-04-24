@@ -27,6 +27,7 @@
 
     // horizontal
     &-h {
+        flex-direction: row;
         & > li {
             & > a,
             span {
@@ -70,5 +71,9 @@
                 text-decoration: underline;
             }
         }
+    }
+
+    &-lang {
+        margin-top: 20px;
     }
 }
