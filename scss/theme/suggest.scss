@@ -1,0 +1,49 @@
+.t-f-suggest {
+    position: relative;
+    width: 100%;
+
+    ::placeholder {
+        color: #fff;
+    }
+
+    &-input {
+        height: 42px;
+        width: 100%;
+        box-sizing: border-box;
+        background: rgba(#fff, 0.2);
+        font-family: inherit;
+        padding: 5px 60px 5px 15px;
+        border: 1px solid #fff;
+        color: #fff;
+
+    }
+
+    &-toggle {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        color: #fff;
+        border: none;
+        fill: currentColor;
+        border-left: 1px solid #fff;
+    }
+    &-results {
+        margin-top: 20px;
+
+        &-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        &-item {
+            margin-bottom: 6px;
+        }
+    }
+}

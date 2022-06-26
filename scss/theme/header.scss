@@ -1,5 +1,5 @@
 .t-header {
-    padding-top: 38px;
+    padding-top: 20px;
     padding-bottom: 25px;
     background: var(--tm-c-g-p);
 
@@ -50,6 +50,7 @@
         }
     }
     @media (min-width: $breakpoint-medium) {
+        padding-top: 38px;
         &-logo {
             padding-right: 30px;
         }

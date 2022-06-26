@@ -89,7 +89,27 @@
             </svg>
         </button>
         <div class="t-overlay-content">
-            Vyhladavanie
+            <form class="t-f-suggest">
+                <input class="t-f-suggest-input" type="text" name="search" value="" maxlength="100" placeholder="Hledat">
+                <button class="t-f-suggest-toggle">
+                    <svg width="22" height="22" viewBox="0 0 22 22">
+                        <use xlink:href="./svg/sprite.svg#i-search"></use>
+                    </svg>
+                </button>
+            </form>
+            <div class="t-f-suggest-results">
+                <ul class="t-f-suggest-results-list">
+                    <li class="t-f-suggest-results-item">
+                        <a href="#">Po celém světě stále banky investují do fosilních paliv</a>
+                    </li>
+                    <li class="t-f-suggest-results-item">
+                        <a href="#">Zelená transformace ekonomiky musí být v jádru sociálně spravedlivá</a>
+                    </li>
+                    <li class="t-f-suggest-results-item">
+                        <a  href="#">Kampaň Zastavme špinavé prachy má další úspěch</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </header>
