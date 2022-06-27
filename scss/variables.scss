@@ -35,6 +35,16 @@ $tm-section-padding-bottom: 50px;
 $base-selection-background: rgba(#33b7b7, 0.8);
 $base-selection-color: #fff;
 
+$breakpoint-small:                              640px !default;  // Phone landscape
+$breakpoint-medium:                             960px !default;  // Tablet Landscape
+$breakpoint-large:                              1200px !default; // Desktop
+$breakpoint-xlarge:                             1600px !default; // Large Screens
+
+$breakpoint-xsmall-max:                         ($breakpoint-small - 1) !default;
+$breakpoint-small-max:                          ($breakpoint-medium - 1) !default;
+$breakpoint-medium-max:                         ($breakpoint-large - 1) !default;
+$breakpoint-large-max:                          ($breakpoint-xlarge - 1) !default;
+
 $container-max-width: 1250px;
 $container-padding-horizontal: 15px;
 $container-padding-horizontal-s: 20px;

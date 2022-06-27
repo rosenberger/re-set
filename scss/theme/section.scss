@@ -61,6 +61,11 @@
             }
         }
     }
+    &--links {
+        .links-list {
+            font-size: 22px;
+        }
+    }
     @media (min-width: $breakpoint-small) {
         &-content {
             &-img > * {

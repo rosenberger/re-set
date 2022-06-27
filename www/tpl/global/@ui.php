@@ -135,7 +135,7 @@ function blockSectionArticles($section, $button, $menu, $count) {
         }
         echo '
             <div>
-                <div class="article-short '.($article_short["type"] == "document" ? 'article-short--document' : '').'">';
+                <a class="article-short '.($article_short["type"] == "document" ? 'article-short--document' : '').'">';
                         if ($article_short["cover"]) {
                             echo '<div class="article-short-img">';
                             if ($article_short["label"]) {
@@ -160,7 +160,7 @@ function blockSectionArticles($section, $button, $menu, $count) {
                             ';
                         }
                     echo '</div>
-                </div>
+                </a>
             </div>
         ';
     }
@@ -232,7 +232,7 @@ function blockSectionLinks($section) {
         echo '
             <div>
                 <h3>'.$chapter["heading"].'</h3>';
-
+                echo '<div class="links-list">';
                 $last = count($chapter["links"]);
                 foreach ($chapter["links"] as $key => $link) {
                     echo '<a href="' .$link["url"]. '" target="_blank">' .$link["name"]. '</a>';
@@ -240,6 +240,7 @@ function blockSectionLinks($section) {
                         echo '<br>';
                     }
                 }
+                echo '</div>';
         echo '
             </div>
         ';

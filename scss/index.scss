@@ -4,10 +4,11 @@
 @import "../node_modules/normalize.css/normalize";
 @import "../node_modules/uikit/src/scss/variables";
 @import "variables";
-@import "../node_modules/uikit/src/scss/components/import";
+// @import "../node_modules/uikit/src/scss/components/import";
 @import "uikit/import";
 
-@import "theme/base";
+@import "base/accessibility";
+@import "base/base";
 @import "theme/elements";
 @import "theme/grid";
 @import "theme/button";

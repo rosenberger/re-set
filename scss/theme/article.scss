@@ -22,17 +22,24 @@
     flex-direction: column;
     align-items: stretch;
     height: 100%;
+    text-decoration: none;
+    color: $tm-global-color;
+
+    h3 {
+        transition: color 0.3s ease;
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: $tm-global-color;
+
+        h3 {
+            color: $tm-g-secondary-color;
+        }
+    }
 
     & > :last-child {
         margin-bottom: 0 !important; // sass-lint:disable-line no-important
-    }
-
-    &--h {
-        flex-direction: row;
-
-        .article-short-img {
-            margin: 0;
-        }
     }
 
     &--document {
@@ -80,6 +87,18 @@
             content: "\2014";
             display: inline-block;
             margin: 0 5px;
+        }
+    }
+    @media (min-width: $breakpoint-medium) {
+        &--h {
+            flex-direction: row;
+
+            .article-short-img {
+                margin: 0;
+                padding-right: 20px;
+                flex-shrink: 0;
+                max-width: 400px;
+            }
         }
     }
 }

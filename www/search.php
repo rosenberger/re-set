@@ -38,7 +38,7 @@ function blockArticles() {
                 <p>Nalezeno 145 výsledků.</p>
                 <div class="t-grid">
                     <div>
-                        <a href="./clanek.php" class="article-short article-short-h">
+                        <a href="./clanek.php" class="article-short article-short--h">
                             <div class="article-short-img">
                                 <img src="https://picsum.photos/400/230" alt="Kampaň Zastavme špinavé prachy má další úspěch">
                             </div>
@@ -51,21 +51,7 @@ function blockArticles() {
                         </a>
                     </div>
                     <div>
-                        <a href="./clanek.php" class="article-short article-short-h">
-                            <div class="article-short-img">
-                                <img src="https://picsum.photos/400/230" alt="Kampaň Zastavme špinavé prachy má další úspěch">
-                            </div>
-                            <div>
-                                <h3 class="article-short-head">Kampaň Zastavme špinavé prachy má další úspěch</h3>
-                                <div class="article-short-desc">
-                                    <span class="article-short-info">10/8/2021</span> — Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou klimatickou politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="./clanek.php" class="article-short article-short-h">
+                        <a href="./clanek.php" class="article-short article-short--h">
                             <div class="article-short-img">
                                 <img src="https://picsum.photos/400/230" alt="Kampaň Zastavme špinavé prachy má další úspěch">
                             </div>
@@ -79,7 +65,21 @@ function blockArticles() {
                         </a>
                     </div>
                     <div>
-                        <a href="./clanek.php" class="article-short article-short-h">
+                        <a href="./clanek.php" class="article-short article-short--h">
+                            <div class="article-short-img">
+                                <img src="https://picsum.photos/400/230" alt="Kampaň Zastavme špinavé prachy má další úspěch">
+                            </div>
+                            <div>
+                                <h3 class="article-short-head">Kampaň Zastavme špinavé prachy má další úspěch</h3>
+                                <div class="article-short-desc">
+                                    <span class="article-short-info">10/8/2021</span> — Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou klimatickou politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./clanek.php" class="article-short article-short--h">
                             <div class="article-short-img">
                                 <img src="https://picsum.photos/400/230" alt="Kampaň Zastavme špinavé prachy má další úspěch">
                             </div>
