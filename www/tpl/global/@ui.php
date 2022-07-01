@@ -135,7 +135,7 @@ function blockSectionArticles($section, $button, $menu, $count) {
         }
         echo '
             <div>
-                <a class="article-short '.($article_short["type"] == "document" ? 'article-short--document' : '').'">';
+                <div class="article-short '.($article_short["type"] == "document" ? 'article-short--document' : '').'">';
                         if ($article_short["cover"]) {
                             echo '<div class="article-short-img">';
                             if ($article_short["label"]) {
@@ -160,7 +160,7 @@ function blockSectionArticles($section, $button, $menu, $count) {
                             ';
                         }
                     echo '</div>
-                </a>
+                </div>
             </div>
         ';
     }
