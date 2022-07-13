@@ -6,11 +6,29 @@
     font-weight: 600;
 
     a {
+        color: $tm-g-secondary-color;
         text-decoration: none;
 
-        &:focus,
+        &:focus-visible,
         &:hover {
-            text-decoration: underline;
+            text-decoration: none;
+            color: $tm-global-color;
+        }
+    }
+
+    &-text {
+        & > :last-child {
+            margin-bottom: 0 !important; // sass-lint:disable-line no-important
+        }
+
+        a {
+            color: $tm-global-color;
+
+            &:focus-visible,
+            &:hover {
+                color: $tm-g-secondary-color;
+
+            }
         }
     }
 
@@ -32,6 +50,23 @@
     @media (min-width: $breakpoint-medium) {
         &-grid {
             grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+.t-footer-bottom {
+    padding: 24px;
+    font-size: 14px;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+
+        &:hover,
+        &:focus-visible {
+            text-decoration: underline;
+            color: inherit;
         }
     }
 }

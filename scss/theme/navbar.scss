@@ -14,8 +14,8 @@
             text-decoration: none;
         }
 
-        & > a.t-active,
-        &.t-active {
+        & > a.is-active,
+        &.is-active {
             color: var(--text-link);
         }
 
@@ -28,6 +28,7 @@
     // horizontal
     &-h {
         flex-direction: row;
+        justify-content: flex-end;
         & > li {
             & > a,
             span {
@@ -59,8 +60,8 @@
                 padding-right: 5px;
             }
 
-            & > a.t-active,
-            &.t-active {
+            & > a.is-active,
+            &.is-active {
                 color: var(--text);
                 font-weight: 900;
             }
@@ -75,5 +76,17 @@
 
     &-lang {
         margin-top: 20px;
+    }
+
+    @media (max-width: $breakpoint-medium-max) {
+        &-h {
+            & > li {
+                & > a,
+                span {
+                    padding: 0 10px;
+                    font-size: 16px;
+                }
+            }
+        }
     }
 }

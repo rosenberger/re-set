@@ -10,9 +10,7 @@
             "info":"10/8/2021",
             "label":"Kampaň",
             "url":"#",
-            "action": false,
             "action_text": false,
-            "link":"",
             "type":"article"
         },
         {
@@ -22,9 +20,7 @@
             "info":"7/8/2021",
             "label":"Tisková zpráva",
             "url":"#",
-            "action": false,
             "action_text": false,
-            "link":"",
             "type":"article"
         },
         {
@@ -34,9 +30,7 @@
             "info":"10/8/2021",
             "label":"",
             "url":"#",
-            "action": false,
             "action_text": false,
-            "link":"",
             "type":"article"
         },
         {
@@ -46,9 +40,7 @@
             "info":"6/8/2021",
             "label":"",
             "url":"#",
-            "action": false,
             "action_text": false,
-            "link":"",
             "type":"article"
         },
         {
@@ -70,9 +62,7 @@
             "info":"10/8/2021",
             "label":"",
             "url":"#",
-            "action": false,
             "action_text": false,
-            "link":"",
             "type":"article"
         }
     ],

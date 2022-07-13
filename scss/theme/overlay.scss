@@ -3,7 +3,7 @@
     height: 0;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
     left: 0;
     top: 0;
     background-color: rgba($tm-g-secondary-color, 0.9);
@@ -11,7 +11,7 @@
     transition: height 0.5s;
     color: var(--text-inverse);
 
-    &.t-active {
+    &.is-active {
         height: 100%;
     }
 
@@ -23,8 +23,8 @@
 
     .t-close-btn {
         position: absolute;
-        top: 25px;
-        right: 15px;
+        top: 15px;
+        right: 20px;
         line-height: 48px;
         width: 48px;
         text-align: center;
@@ -43,8 +43,8 @@
           margin-right: -13px;
       }
       li {
-          & > a.t-active,
-          &.t-active {
+          & > a.is-active,
+          &.is-active {
               color: var(--text-inverse);
               text-decoration: underline;
           }

@@ -10,10 +10,8 @@
                 "text":"Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou klimatickou politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.",
                 "info":"10/8/2021",
                 "label":"Tisková zpráva",
-                "url":"#",
-                "action": false,
+                "url":"./clanek.php",
                 "action_text": false,
-                "link":"",
                 "type":"article"
             },
             {
@@ -22,10 +20,8 @@
                 "text":"Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou klimatickou politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám.",
                 "info":"7/8/2021",
                 "label":"Studie",
-                "url":"#",
-                "action": false,
+                "url":"./clanek.php",
                 "action_text": false,
-                "link":"",
                 "type":"article"
             },
             {
@@ -34,10 +30,8 @@
                 "text":"Lorem ipsum dolor sit amet nis earci comni cum quatibus nonsedis aut as del ipit autem hictibus soluptur, si si quatur. Quid ut la qui dollaudam, earibus vellaborro vel mo quo odic.",
                 "info":"10/8/2021",
                 "label":"Studie",
-                "url":"#",
-                "action": false,
+                "url":"./clanek.php",
                 "action_text": false,
-                "link":"",
                 "type":"article"
             },
             {
@@ -46,10 +40,8 @@
                 "text":"Lorem ipsum dolor sit amet nis earci comni cum quatibus nonsedis aut as del ipit autem hictibus soluptur, si si quatur. Quid ut la qui dollaudam, earibus vellaborro vel mo quo odic.",
                 "info":"6/8/2021",
                 "label":"",
-                "url":"#",
-                "action": false,
+                "url":"./clanek.php",
                 "action_text": false,
-                "link":"",
                 "type":"article"
             },
             {

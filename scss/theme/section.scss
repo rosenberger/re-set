@@ -31,20 +31,12 @@
         background: var(--tm-c-g-p);
         margin-top: -10px;
         padding-top: 30px;
-        padding-bottom: 15px;
+        padding-bottom: 30px;
 
         &::after {
             display: none;
         }
 
-        // &-homepage {
-        //     .t-section-content {
-        //         &-img > * {
-        //             margin-top: auto !important;
-        //             margin-bottom: 15px;
-        //         }
-        //     }
-        // }
         & {
             &-detail {
                 padding-top: 0;
@@ -80,7 +72,7 @@
 
                 & > * {
                     margin-top: auto !important;
-                    margin-bottom: -15px;
+                    margin-bottom: -30px;
                 }
             }
         }

@@ -11,18 +11,18 @@
         <div class="t-header-nav">
           <nav class="t-header-nav-main uk-navbar uk-visible@m">
               <ul class="t-navbar t-navbar-h">
-                  <li><a class="t-active" href="./">Úvodní strana</a></li>
+                  <li><a class="is-active" href="./">Úvodní strana</a></li>
                   <li><a href="./aktuality.php">Aktuality</a></li>
                   <li><a href="./o-nas.php">O nás</a></li>
                   <li><a href="./materialy.php">Materiály</a></li>
-                  <li><a href="./clanek.php">Článek</a></li>
+                  <li><a href="./pro-novinare.php">Pro novináře</a></li>
                   <li><a href="#">Podpořte nás</a></li>
               </ul>
           </nav>
           <div class="t-header-nav-right">
               <nav class="uk-visible@m">
                   <ul class="t-navbar t-navbar-h t-navbar-small">
-                      <li><a class="t-active" href="#">CZ</a></li>
+                      <li><a class="is-active" href="#">CZ</a></li>
                       <li><a href="#">EN</a></li>
                   </ul>
               </nav>
@@ -68,17 +68,17 @@
             <div class="t-overlay-content-center">
                 <nav class="t-header-nav-main uk-navbar">
                     <ul class="t-navbar t-navbar-v">
-                        <li><a class="t-active" href="./">Úvodní strana</a></li>
+                        <li><a class="is-active" href="./">Úvodní strana</a></li>
                         <li><a href="./aktuality.php">Aktuality</a></li>
                         <li><a href="./o-nas.php">O nás</a></li>
                         <li><a href="./materialy.php">Materiály</a></li>
-                        <li><a href="./clanek.php">Článek</a></li>
+                        <li><a href="./pro-novinare.php">Pro novináře</a></li>
                         <li><a href="#">Podpořte nás</a></li>
                     </ul>
                 </nav>
                 <nav class="t-navbar-lang">
                     <ul class="t-navbar t-navbar-h">
-                        <li><a class="t-active" href="#">CZ</a></li>
+                        <li><a class="is-active" href="#">CZ</a></li>
                         <li><a href="#">EN</a></li>
                     </ul>
                 </nav>

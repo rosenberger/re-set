@@ -116,7 +116,7 @@ function blockSectionArticles($section, $button, $menu, $count) {
                         <nav class="uk-flex uk-flex-center">
                             <ul class="t-tab">
                                 <li class="t-tab-header"><span>Témata:</span></li>
-                                <li class="t-active"><a href="#">Bydlení</a></li>
+                                <li class="is-active"><a href="#">Bydlení</a></li>
                                 <li><a href="#">Nerůst</a></li>
                                 <li><a href="#">Klima</a></li>
                                 <li><a href="#">Budování hnutí</a></li>
@@ -135,7 +135,7 @@ function blockSectionArticles($section, $button, $menu, $count) {
         }
         echo '
             <div>
-                <a class="article-short '.($article_short["type"] == "document" ? 'article-short--document' : '').'">';
+                <div class="article-short '.($article_short["type"] == "document" ? 'article-short--document' : '').'">';
                         if ($article_short["cover"]) {
                             echo '<div class="article-short-img">';
                             if ($article_short["label"]) {
@@ -146,21 +146,29 @@ function blockSectionArticles($section, $button, $menu, $count) {
                         }
                     echo '
                     <div class="article-short-content">
-                        <h3 class="article-short-head">' .$article_short["heading"]. '</h3>
+                        <h3 class="article-short-head">';
+                            if($article_short["url"]) {
+                                echo '<a class="article-short-link-ext" href="' .$article_short["url"]. '">' .$article_short["heading"]. '</a>';
+                            }
+                            else {
+                                echo $article_short["heading"];
+                            }
+                        echo '</h3>
                         <div class="article-short-desc">';
-                        if ($article_short["info"]) {
-                            echo '<span class="article-short-info">' .$article_short["info"]. '</span>';
-                        }
-                        echo $article_short["text"]. '</div>';
-                        if ($article_short["action"]) {
+                            if ($article_short["info"]) {
+                                echo '<span class="article-short-info">' .$article_short["info"]. '</span>';
+                            }
+                            echo $article_short["text"];
+                        echo '</div>';
+                        if ($article_short["url"] && $article_short["action_text"]) {
                             echo '
                             <div class="article-short-link">
-                                <a href="' .$article_short["action"]. '" class="t-button">' .$article_short["action_text"]. '</a>
+                                <a href="' .$article_short["url"]. '" class="t-button">' .$article_short["action_text"]. '</a>
                             </div>
                             ';
                         }
                     echo '</div>
-                </a>
+                </div>
             </div>
         ';
     }
@@ -300,21 +308,33 @@ function blockSectionParticipation() {
                 <h3 class="t-h3-second uk-width-2-3@s">Existuje několik způsobů, jak naší platformu můžeš podpořit nebo se aktivně zapojit do budování lepšího sociálně-ekologického prostředí.</h3>
             </div>
             <div class="t-section-f">
-                <div class="t-grid t-child-width-1-2@s t-child-width-1-3@m">
+                <div class="t-part-list t-grid t-child-width-1-2@s t-child-width-1-3@m">
                     <div>
-                        <img alt="Podpoř nás" src="./img/Images4.png" width="230" height="230">
-                        <h3 class="t-h2">Podpoř nás</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="t-part-item">
+                            <div class="t-part-img">
+                                <img alt="Podpoř nás" src="./img/Images4.png" width="230" height="230" />
+                            </div>
+                            <h3 class="t-h2 t-part-head"><a href="https://www.darujme.cz/projekt/1203521" class="t-part-link-ext" target="blank">Podpoř nás</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
                     </div>
                     <div>
-                        <img alt="Podpoř nás" src="./img/Images5.png" width="230" height="230">
-                        <h3 class="t-h2">Informuj se</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="t-part-item">
+                            <div class="t-part-img">
+                                <img alt="Informuj se" src="./img/Images5.png" width="230" height="230">
+                            </div>
+                            <h3 class="t-h2 t-part-head"><a href="#" class="t-part-link-ext">Informuj se</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
                     </div>
                     <div>
-                        <img alt="Podpoř nás" src="./img/Images6.png" width="230" height="230">
-                        <h3 class="t-h2">Zapoj se</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="t-part-item">
+                            <div class="t-part-img">
+                                <img alt="Zapoj se" src="./img/Images6.png" width="230" height="230">
+                            </div>
+                            <h3 class="t-h2 t-part-head"><a href="./o-nas.php" class="t-part-link-ext">Zapoj se</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
                     </div>
                 </div>
             </div>

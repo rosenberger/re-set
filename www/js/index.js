@@ -1,18 +1,9 @@
-/* Open */
-// function openNav() {
-//   document.getElementById("myNav").style.height = "100%";
-// }
-//
-// /* Close */
-// function closeNav() {
-//   document.getElementById("myNav").style.height = "0%";
-// }
-
 const jsOverlayArray = document.querySelectorAll('[js-overlay]');
 const jsCloseArray = document.querySelectorAll('.js-close');
+const jsTotopArray = document.querySelectorAll('.js-totop');
 
 jsOverlayArray.forEach((el) => {
-    if (el.classList.contains('t-active')) {
+    if (el.classList.contains('is-active')) {
         el.setAttribute('aria-expanded', 'true')
     }
     else {
@@ -25,11 +16,12 @@ jsCloseArray.forEach((el) => {
     el.addEventListener('click', function(){ jsClose(el)}, false);
 });
 
-// document.querySelector('.js-close').addEventListener('click', function(){ jsClose(this)}, false);
+jsTotopArray.forEach((el) => {
+    el.addEventListener('click', function(){ jsTotop(el)}, false);
+});
 
 function jsClose(e) {
-    console.log(e);
-    e.parentElement.classList.remove('t-active');
+    e.parentElement.classList.remove('is-active');
     let eventAtt = e.parentElement.getAttribute('data-event-att');
     if (eventAtt) {
         document.querySelector('[' + eventAtt + ']').setAttribute('aria-expanded', 'false')
@@ -40,12 +32,15 @@ function jsOverlay(e) {
     let overlayName = e.getAttribute('js-overlay');
     let overlayNames = document.getElementsByClassName(overlayName);
     if (overlayNames.length > 0) {
-        overlayNames[0].classList.add('t-active');
+        overlayNames[0].classList.add('is-active');
         overlayNames[0].setAttribute('data-event-att', 'js-overlay=' + overlayName)
         e.setAttribute('aria-expanded', 'true');
     }
     else {
         console.log('error: no overlay');
     }
-    //overlayNames[0].style.height = "100%";
+}
+
+function jsTotop(e) {
+    window.scroll({top: 0, left: 0, behavior: 'smooth'});
 }

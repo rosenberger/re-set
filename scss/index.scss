@@ -8,6 +8,7 @@
 @import "uikit/import";
 
 @import "base/accessibility";
+@import "theme/article";
 @import "base/base";
 @import "theme/elements";
 @import "theme/grid";
@@ -15,9 +16,9 @@
 @import "theme/overlay";
 @import "theme/tab";
 @import "theme/navbar";
-@import "theme/container";
+@import "theme/part";
 @import "theme/section";
-@import "theme/article";
 @import "theme/header";
 @import "theme/footer";
 @import "theme/suggest";
+@import "theme/totop";
