@@ -42,7 +42,7 @@
         </div>
     </section>
     <section class="t-footer-bottom">
-        <div class="uk-container">
+        <div class="uk-container u-text-center">
             <p> &copy;&nbsp;2022 re-set Všechna práva vyhrazena. Design: <a href="http://vonsaten.net/" target="blank">Von Saten</a></p>
         </div>
     </section>

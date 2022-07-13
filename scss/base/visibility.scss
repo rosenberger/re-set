@@ -1,0 +1,28 @@
+[hidden],
+.u-hidden { display: none !important; }
+
+@media (min-width: $breakpoint-small) {
+    .u-hidden\@s { display: none !important; }
+}
+@media (min-width: $breakpoint-medium) {
+    .u-hidden\@m { display: none !important; }
+}
+@media (min-width: $breakpoint-large) {
+    .u-hidden\@l { display: none !important; }
+}
+@media (min-width: $breakpoint-xlarge) {
+    .u-hidden\@xl { display: none !important; }
+}
+@media (max-width: $breakpoint-xsmall-max) {
+    .u-visible\@s { display: none !important; }
+}
+@media (max-width: $breakpoint-small-max) {
+    .u-visible\@m { display: none !important; }
+}
+@media (max-width: $breakpoint-medium-max) {
+    .u-visible\@l { display: none !important; }
+}
+@media (max-width: $breakpoint-large-max) {
+    .u-visible\@xl { display: none !important; }
+}
+.u-invisible { visibility: hidden !important; }

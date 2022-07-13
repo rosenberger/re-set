@@ -56,6 +56,18 @@
     &--links {
         .links-list {
             font-size: 22px;
+            line-height: 2;
+
+            a {
+                color: $tm-global-color;
+                text-decoration: none;
+
+                &:hover,
+                &:focus-visible {
+                    color: $tm-g-secondary-color;
+                    text-decoration: none;
+                }
+            }
         }
     }
     @media (min-width: $breakpoint-small) {

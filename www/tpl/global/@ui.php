@@ -176,7 +176,7 @@ function blockSectionArticles($section, $button, $menu, $count) {
     // end articles
     if ($button) {
         echo '
-        <div class="t-section-f uk-text-center">
+        <div class="t-section-f u-text-center">
             <a href="' .$button["url"]. '" class="t-button">' .$button["text"]. '</a>
         </div>
         ';
