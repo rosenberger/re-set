@@ -8,6 +8,8 @@ body {
     //-webkit-font-smoothing: antialiased; // sass-lint:disable-line no-vendor-prefixes
     -webkit-tap-highlight-color: transparent; // sass-lint:disable-line no-vendor-prefixes
     scroll-behavior: smooth;
+    position: relative;
+    min-width: 320px;
 }
 
 a {
