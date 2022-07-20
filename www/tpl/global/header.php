@@ -98,7 +98,7 @@
                         <span class="sr-only">Vyhledat</span>
                     </button>
                 </form>
-                <div class="t-f-suggest-results">
+                <!-- <div class="t-f-suggest-results">
                     <ul class="t-f-suggest-results-list">
                         <li class="t-f-suggest-results-item">
                             <a href="#">Po celém světě stále banky investují do fosilních paliv</a>
@@ -110,7 +110,7 @@
                             <a  href="#">Kampaň Zastavme špinavé prachy má další úspěch</a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

@@ -21,7 +21,7 @@ jsTotopArray.forEach((el) => {
 });
 
 function jsClose(e) {
-    e.parentElement.classList.remove('is-active');
+    e.closest('[data-event-att]').classList.remove('is-active');
     let eventAtt = e.parentElement.getAttribute('data-event-att');
     if (eventAtt) {
         document.querySelector('[' + eventAtt + ']').setAttribute('aria-expanded', 'false')

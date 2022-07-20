@@ -24,8 +24,8 @@ $base-h1-font-size-m: 75px;
 $base-h2-font-size-m: 50px;
 $base-h3-font-size-m: 30px;
 
-$base-h1-font-size: 40px;
-$base-h2-font-size: 30px;
+$base-h1-font-size: 32px;
+$base-h2-font-size: 28px;
 $base-h3-font-size: 24px;
 $base-h4-font-size: 16px;
 
@@ -54,6 +54,12 @@ $container-padding-horizontal-m: 20px;
 
 $navbar-nav-item-height: 40px;
 
+
+$pagination-item-color: #000;
+$pagination-item-disabled-color: #666;
+$pagination-item-active-color: $tm-g-secondary-color;
+$pagination-item-hover-color: $tm-g-secondary-color;
+
 // tm-theme, c-color(entita), g-global
 :root {
     --tm-c-g: #{$tm-global-color};
@@ -66,6 +72,13 @@ $navbar-nav-item-height: 40px;
     --heading-h1: #{$base-h1-font-size};
     --heading-h2: #{$base-h2-font-size};
     --heading-h3: #{$base-h3-font-size};
+}
+
+@media (min-width: $breakpoint-small) {
+    :root {
+        --heading-h1: 40px;
+        --heading-h2: 30px;
+    }
 }
 
 @media (min-width: $breakpoint-medium) {

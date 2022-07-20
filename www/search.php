@@ -34,8 +34,21 @@
 function blockArticles() {
     echo '
         <section class="t-section">
-            <div class="uk-container">
+            <div class="uk-container uk-container-small uk-margin-medium-bottom">
+                <div class="uk-margin-bottom">
+                    <form class="t-f-suggest t-f-suggest--dark">
+                        <input class="t-f-suggest-input" type="text" name="search" value="klimatickou" maxlength="100" placeholder="Hledaný výraz...">
+                        <button class="t-f-suggest-toggle">
+                            <svg width="22" height="22" viewBox="0 0 22 22">
+                                <use xlink:href="./svg/sprite.svg#i-search"></use>
+                            </svg>
+                            <span class="sr-only">Vyhledat</span>
+                        </button>
+                    </form>
+                </div>
                 <p>Nalezeno 145 výsledků.</p>
+            </div>
+            <div class="uk-container">
                 <div class="t-grid">
                     <div>
                         <div class="article-short article-short--h">
@@ -49,7 +62,7 @@ function blockArticles() {
                                     </a>
                                 </h3>
                                 <div class="article-short-desc">
-                                    <span class="article-short-info">10/8/2021</span>Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou klimatickou politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.
+                                    <span class="article-short-info">10/8/2021</span>Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou <strong class="u-text-highlight">klimatickou</strong> politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.
                                 </div>
                             </div>
                         </div>
@@ -66,7 +79,7 @@ function blockArticles() {
                                 </a>
                             </h3>
                                 <div class="article-short-desc">
-                                    <span class="article-short-info">10/8/2021</span>Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou klimatickou politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.
+                                    <span class="article-short-info">10/8/2021</span>Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou <strong class="u-text-highlight">klimatickou</strong> politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.
 
                                 </div>
                             </div>
@@ -84,7 +97,7 @@ function blockArticles() {
                                     </a>
                                 </h3>
                                 <div class="article-short-desc">
-                                    <span class="article-short-info">10/8/2021</span>Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou klimatickou politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.
+                                    <span class="article-short-info">10/8/2021</span>Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou <strong class="u-text-highlight">klimatickou</strong> politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.
 
                                 </div>
                             </div>
@@ -102,7 +115,7 @@ function blockArticles() {
                                     </a>
                                 </h3>
                                 <div class="article-short-desc">
-                                    <span class="article-short-info">10/8/2021</span>Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou klimatickou politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.
+                                    <span class="article-short-info">10/8/2021</span>Pojišťovna Kooperativa, respektive její mateřská firma Vienna Insurance Group, zveřejnila novou <strong class="u-text-highlight">klimatickou</strong> politiku. V ní slibuje, že co nejdříve ukončí pojištění firmám bez důvěryhodného plánu konce uhlí.
                                 </div>
                             </div>
                         </div>
@@ -110,7 +123,21 @@ function blockArticles() {
                 </div>
               </div>
               <div class="t-section-f u-text-center">
-                  <a href="#" class="t-button">Zobrazit další výsledky</a>
+                <ul class="pagination uk-pagination">
+                    <li><a href="#" class="uk-pagination-prev"><span class="sr-only">Předchozí stránka</span></a></li>
+                    <li><a href="#">1</a></li>
+                    <li class="uk-disabled"><span>…</span></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li class="uk-active"><span>7</span></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#">9</a></li>
+                    <li><a href="#">10</a></li>
+                    <li class="uk-disabled"><span>…</span></li>
+                    <li><a href="#">20</a></li>
+                    <li><a href="#" class="uk-pagination-next"><span class="sr-only">Další stránka</span></a></li>
+                </ul>
               </div>
           </div>
       </section>

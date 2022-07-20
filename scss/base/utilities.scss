@@ -8,4 +8,10 @@
     &-right {
         text-align: right;
     }
+
+    &-highlight {
+        font-weight: bold;
+        background: #dedede;
+        padding: 0 3px;
+    }
 }

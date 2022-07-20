@@ -4,7 +4,6 @@
 @import "../node_modules/normalize.css/normalize";
 @import "../node_modules/uikit/src/scss/variables";
 @import "variables";
-// @import "../node_modules/uikit/src/scss/components/import";
 @import "uikit/import";
 
 @import "base/accessibility";
@@ -22,5 +21,6 @@
 @import "theme/section";
 @import "theme/header";
 @import "theme/footer";
+@import "theme/pagination";
 @import "theme/suggest";
 @import "theme/totop";
