@@ -144,6 +144,9 @@ function blockSectionArticles($section, $button, $menu, $count) {
                             echo '<img src="' .$article_short["cover"]. '"  width="400" height="230px" alt="' .$article_short["heading"]. '">';
                             echo '</div>';
                         }
+                        elseif ($article_short["label"]) {
+                            echo '<div class="article-short-labels"><span class="article-short-label">' .$article_short["label"]. '</span></div>';
+                        }
                     echo '
                     <div class="article-short-content">
                         <h3 class="article-short-head">';

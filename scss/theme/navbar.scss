@@ -76,6 +76,7 @@
 
     &-lang {
         margin-top: 20px;
+        display: flex;
     }
 
     @media (max-width: $breakpoint-medium-max) {

@@ -25,6 +25,8 @@
     text-decoration: none;
     position: relative;
 
+    $s: &;
+
     &:hover {
         text-decoration: none;
         color: $tm-global-color;
@@ -51,10 +53,20 @@
     &-img {
         margin: 0 0 20px;
         position: relative;
+
+        #{$s}-label {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+    &-labels {
+        margin: 0 0 20px;
+        position: relative;
     }
 
     &-label {
-        position: absolute;
+        position: static;
         font: 600 16px/1.5 $tm-global-font-serif;
         background: var(--tm-c-g-s);
         color: #fff;

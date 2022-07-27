@@ -24,6 +24,9 @@
         margin-right: auto;
         padding-left: $container-padding-horizontal;
         padding-right: $container-padding-horizontal;
+        overflow-y: auto;
+        max-height: 100vh;
+        overscroll-behavior: contain;
     }
 
     &-content {
@@ -33,7 +36,6 @@
         box-sizing: border-box;
         padding: 20px;
         display: grid;
-        overflow-y: auto;
 
         &-center {
             justify-self: center;
@@ -49,7 +51,7 @@
     .t-close-btn {
         position: absolute;
         top: 15px;
-        right: 20px;
+        right: 15px;
         line-height: 48px;
         width: 48px;
         text-align: center;
@@ -64,8 +66,8 @@
       font-size: 22px;
 
       &-h {
-          margin-left: -13px;
-          margin-right: -13px;
+          margin-left: -10px;
+          margin-right: -10px;
       }
       li {
           & > a.is-active,
@@ -92,6 +94,9 @@
         }
     }
     @media (min-width: $breakpoint-medium) {
+        .t-close-btn {
+            right: 20px;
+        }
         &-container {
             padding-left: $container-padding-horizontal-m;
             padding-right: $container-padding-horizontal-m;

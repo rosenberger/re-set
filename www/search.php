@@ -37,7 +37,7 @@ function blockArticles() {
             <div class="uk-container uk-container-small uk-margin-medium-bottom">
                 <div class="uk-margin-bottom">
                     <form class="t-f-suggest t-f-suggest--dark">
-                        <input class="t-f-suggest-input" type="text" name="search" value="klimatickou" maxlength="100" placeholder="Hledaný výraz...">
+                        <input class="t-f-suggest-input" type="text" name="search" value="klimatickou" maxlength="100" placeholder="Hledaný výraz..." autofocus>
                         <button class="t-f-suggest-toggle">
                             <svg width="22" height="22" viewBox="0 0 22 22">
                                 <use xlink:href="./svg/sprite.svg#i-search"></use>

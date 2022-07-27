@@ -35,6 +35,7 @@ function jsOverlay(e) {
         overlayNames[0].classList.add('is-active');
         overlayNames[0].setAttribute('data-event-att', 'js-overlay=' + overlayName)
         e.setAttribute('aria-expanded', 'true');
+        if (overlayNames[0].getElementsByTagName("input")[0]) overlayNames[0].getElementsByTagName("input")[0].focus();
     }
     else {
         console.log('error: no overlay');

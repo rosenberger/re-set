@@ -16,7 +16,7 @@
 
         &::before {
             position: absolute;
-            color: #000;
+            color: var(--tm-c-g);
             top: 50%;
             left: 50%;
             content: "";
