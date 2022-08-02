@@ -19,8 +19,20 @@
                         </p>
                         <p>
                             Sociální sítě:<br>
-                            <a href="#">Twitter</a><br>
-                            <a href="#">Facebook</a>
+                            <p class="t-social-grid">
+                                <a href="https://twitter.com/reset_platforma" target="_blank">
+                                    <span class="sr-only">Twitter</span>
+                                    <svg width="40" height="40" viewBox="0 0 40 40">
+                                        <use xlink:href="./svg/sprite.svg#i-twitter"></use>
+                                    </svg>
+                                </a>
+                                <a href="https://www.facebook.com/PlatformaReset/" target="_blank">
+                                    <span class="sr-only">Facebook</span>
+                                    <svg width="40" height="40" viewBox="0 0 40 40">
+                                        <use xlink:href="./svg/sprite.svg#i-facebook"></use>
+                                    </svg>
+                                </a>
+                            </p>
                         </p>
                     </div>
                 </div>

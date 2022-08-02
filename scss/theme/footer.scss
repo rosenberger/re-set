@@ -79,3 +79,15 @@
         }
     }
 }
+
+.t-social-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 48px);
+    grid-gap: 14px;
+    margin: - $base-margin-vertical -4px 0;
+
+    a {
+        fill: currentColor;
+        padding: 4px;
+    }
+}
