@@ -109,7 +109,8 @@ $count - pocet vypisanych clankov
 function blockSectionArticles($section, $button, $menu, $count) {
     echo '
         <section class="t-section t-section--articles">
-            <div class="uk-container">';
+            <div class="uk-container">
+            <h2 class="sr-only">Aktuality</h2>';
             if ($menu) {
                 echo '
                     <div class="t-section-h">
@@ -236,9 +237,10 @@ function blockSectionContacts($section) {
 function blockSectionLinks($section) {
     echo '
         <section class="t-section t-section--links">
-            <div class="uk-container">
+            <div class="uk-container uk-container-small">
+            <h2 class="sr-only">Spolupráce</h2>
     ';
-    echo '<div class="t-grid t-child-width-1-2@s t-child-width-1-3@m">';
+    echo '<div class="t-grid t-child-width-1-2@s">';
     foreach ($section["chapters"] as $key => $chapter) {
         echo '
             <div>
@@ -270,7 +272,7 @@ function blockSectionLogos($section) {
             <div class="uk-container">
                 <div class="uk-grid">
                     <div class="uk-width-1-3@s">
-                        <h3>'.$section["heading"].'</h3>
+                        <h2 class="t-h3">'.$section["heading"].'</h2>
                     </div>
                     <div class="uk-width-1-2@s">';
                         echo '<div class="t-grid t-child-width-1-2@s t-child-width-1-3@m">';

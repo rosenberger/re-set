@@ -146,23 +146,6 @@
                         "url":"#"
                     }
                 ]
-            },
-            {
-                "heading":"Zahraniční partnerské organizace",
-                "links":[
-                    {
-                        "name":"Lorem ipsum",
-                        "url":"#"
-                    },
-                    {
-                        "name":"Dolor sit amet",
-                        "url":"#"
-                    },
-                    {
-                        "name":"Sipsumis lorem",
-                        "url":"#"
-                    }
-                ]
             }
         ]
     },

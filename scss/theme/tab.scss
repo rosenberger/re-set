@@ -33,6 +33,11 @@
     & > .is-active a {
         background: var(--tm-c-g-s);
         color: #fff;
+
+        &:hover, &:focus {
+            background: var(--tm-c-g-s);
+            color: #fff;
+        }
     }
 
     &-header {
