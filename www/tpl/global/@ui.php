@@ -280,6 +280,7 @@ function blockSectionLogos($section) {
                             echo '
                                 <div>
                                     <a href="' .$logo["link"]. '" title="' .$logo["name"]. '" target="_blank">
+                                        <h3 class="sr-only">' .$logo["name"]. '</h3>
                                         <img src="' .$logo["img_url"]. '" width="300" alt="' .$logo["name"]. '">
                                     </a>
                                 </div>
