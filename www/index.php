@@ -24,7 +24,7 @@
                 blockSectionArticles($section_articles["articles"], $section_articles["button"], true, 3);
             }
             blockSectionParticipation();
-            blockSectionTwitter();
+            // blockSectionTwitter();
             ?>
         </article>
     </main>

@@ -47,10 +47,20 @@
     .t-navbar {
         font-size: 18px;
     }
+    @media (min-width: $breakpoint-small) {
+        &-grid {
+            grid-template-columns: repeat(2, 1fr);
+
+            & > * {
+                grid-column: 1fr;
+            }
+        }
+    }
     @media (min-width: $breakpoint-medium) {
         &-grid {
             grid-template-columns: repeat(3, 1fr);
         }
+
     }
 }
 
@@ -68,9 +78,4 @@
             color: inherit;
         }
     }
-}
-
-.iframe-wrapper {
-    max-width: 100%;
-    overflow-y: scroll;
 }

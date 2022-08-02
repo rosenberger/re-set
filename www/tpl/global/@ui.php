@@ -297,6 +297,12 @@ function blockSectionTwitter() {
         <section class="t-section t-section-twitter">
             <div class="uk-container">
                 <h3>Sledujte nás na Twitteru</h3>
+                <div class="t-widget-twitter">
+                    <a class="twitter-timeline" data-width="400" data-height="auto" href="https://twitter.com/reset_platforma?ref_src=twsrc%5Etfw">
+                        Tweets by reset_platforma
+                    </a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
             </div>
         </section>
     ';

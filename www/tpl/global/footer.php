@@ -26,17 +26,17 @@
                 </div>
                 <div>
                     <div class="t-footer-head">Podpořte naší práci:</div>
-                    <div class="iframe-wrapper">
+                    <div class="t-widget-darujme">
                         <div data-darujme-widget-token="bdb1quyp570x7ete">&nbsp;</div>
                         <script type="text/javascript">
-                        +function(w, d, s, u, a, b) {
-                        w['DarujmeObject'] = u;
-                        w[u] = w[u] || function () { (w[u].q = w[u].q || []).push(arguments) };
-                        a = d.createElement(s); b = d.getElementsByTagName(s)[0];
-                        a.async = 1; a.src = "https:\/\/www.darujme.cz\/assets\/scripts\/widget.js";
-                        b.parentNode.insertBefore(a, b);
-                        }(window, document, 'script', 'Darujme');
-                        Darujme(1, "bdb1quyp570x7ete", 'render', "https:\/\/www.darujme.cz\/widget?token=bdb1quyp570x7ete", "350px");
+                        	+function(w, d, s, u, a, b) {
+                        		w['DarujmeObject'] = u;
+                        		w[u] = w[u] || function () { (w[u].q = w[u].q || []).push(arguments) };
+                        		a = d.createElement(s); b = d.getElementsByTagName(s)[0];
+                        		a.async = 1; a.src = "https:\/\/www.darujme.cz\/assets\/scripts\/widget.js";
+                        		b.parentNode.insertBefore(a, b);
+                        	}(window, document, 'script', 'Darujme');
+                        	Darujme(1, "bdb1quyp570x7ete", 'render', "https:\/\/www.darujme.cz\/widget?token=bdb1quyp570x7ete", "100%");
                         </script>
                     </div>
                 </div>

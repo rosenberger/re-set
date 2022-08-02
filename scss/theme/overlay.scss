@@ -92,11 +92,12 @@
             padding-left: $container-padding-horizontal-s;
             padding-right: $container-padding-horizontal-s;
         }
-    }
-    @media (min-width: $breakpoint-medium) {
+
         .t-close-btn {
             right: 20px;
         }
+    }
+    @media (min-width: $breakpoint-medium) {
         &-container {
             padding-left: $container-padding-horizontal-m;
             padding-right: $container-padding-horizontal-m;

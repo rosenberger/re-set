@@ -1,0 +1,17 @@
+.t-widget-twitter {
+    contain: layout;
+
+    iframe {
+        max-width: 100%;
+    }
+}
+
+.t-widget-darujme {
+    contain: layout;
+    width: 100%;
+    max-width: 320px;
+
+    iframe {
+        max-width: 100%;
+    }
+}
